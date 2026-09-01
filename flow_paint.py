@@ -285,6 +285,48 @@ def draw_stroke_layer(draw, n_strokes, y_range, steps_range, step_len_range,
         draw_tapered_stroke(draw, pts_s, width, color, opacity)
 
 
+def build_flow_paths(count=26):
+    """Generate animated SVG swirl paths for the sky.
+
+    These are lightweight vector paths that explicitly animate with CSS dash
+    offset, which makes the sky feel alive even when the raster background is
+    static.
+    """
+    paths = []
+    for i in range(count):
+        cx = rng.uniform(120, WIDTH - 120)
+        cy = rng.uniform(40, 310)
+        turns = rng.uniform(1.8, 3.6)
+        start_r = rng.uniform(18, 46)
+        growth = rng.uniform(0.09, 0.16)
+        rotation = rng.uniform(0, 2 * math.pi)
+        pts = []
+        for j in range(160):
+            t = j / 159 * turns * 2 * math.pi
+            r = start_r * math.exp(growth * t)
+            x = cx + r * math.cos(t + rotation)
+            y = cy + r * math.sin(t + rotation) * 0.72
+            pts.append((x, y))
+
+        d = f"M {pts[0][0]:.1f} {pts[0][1]:.1f} " + " ".join(
+            f"L {x:.1f} {y:.1f}" for x, y in pts[1:]
+        )
+        depth_t = min(max(cy / 420, 0.0), 1.0)
+        color = stroke_color(depth_t, gold=False, jitter=0.06)
+        color_hex = "#%02x%02x%02x" % color
+        width = rng.uniform(1.2, 2.8)
+        opacity = rng.uniform(0.35, 0.78)
+        delay = rng.uniform(0, 18)
+        paths.append({
+            "d": d,
+            "stroke": color_hex,
+            "width": width,
+            "opacity": opacity,
+            "delay": delay,
+        })
+    return paths
+
+
 # ============================================================
 # [STEP 6] 细节层：星星辉光 + 漩涡光晕 + 画布颗粒
 # ------------------------------------------------------------

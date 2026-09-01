@@ -30,11 +30,11 @@ SKY_BLUES = [
 ]
 
 STAR_COLORS = [
-    "#FFD84D",
-    "#FFE681",
-    "#FFF1A8",
-    "#F8C94A",
-    "#FFB84D",
+    "#7AA9D6",
+    "#9EC4E6",
+    "#B9D8F5",
+    "#7D9CC0",
+    "#A7B9D9",
 ]
 
 GOLD_HALO = "#FFE58A"
@@ -68,9 +68,22 @@ ANIMATION_CSS = """
     0%   { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+@keyframes flow-dash {
+    0%   { stroke-dashoffset: 240; opacity: 0.25; }
+    15%  { opacity: 0.7; }
+    100% { stroke-dashoffset: 0; opacity: 0.95; }
+}
 .twinkle { transform-box: fill-box; transform-origin: center; animation: twinkle 3.5s ease-in-out infinite; }
 .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 6s ease-in-out infinite; }
 .spiral-slow { transform-box: fill-box; transform-origin: center; animation: swirl-drift 240s linear infinite; }
+.flow-line {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 18 28;
+    animation: flow-dash 16s linear infinite;
+    filter: drop-shadow(0 0 8px rgba(166, 220, 255, 0.18));
+}
 </style>
 """
 
@@ -439,6 +452,35 @@ def draw_village_skyline():
     return svg
 
 
+def draw_houses():
+    """Create a conservative, layered village at the horizon with depth and staggered scale.
+    The houses are intentionally smaller than the cypress and placed beneath the table area,
+    so they feel structural and lived-in without stealing focus from the project data.
+    """
+    svg = []
+
+    rows = [
+        [(150, 418, 18, 18, 0.46), (220, 412, 22, 22, 0.52), (300, 419, 18, 18, 0.48),
+         (390, 410, 28, 26, 0.60), (520, 422, 19, 19, 0.48), (610, 414, 24, 24, 0.58),
+         (700, 418, 20, 20, 0.46), (820, 408, 30, 28, 0.62), (920, 420, 22, 20, 0.5)],
+        [(180, 396, 24, 25, 0.72), (270, 400, 30, 30, 0.7), (370, 390, 38, 34, 0.8),
+         (490, 402, 26, 24, 0.68), (580, 394, 42, 36, 0.86), (745, 400, 28, 26, 0.7),
+         (900, 402, 30, 28, 0.74)],
+        [(250, 382, 32, 32, 0.9), (440, 384, 40, 36, 0.94), (660, 380, 36, 34, 0.9), (860, 386, 38, 34, 0.96)],
+    ]
+
+    for row in rows:
+        for x, base_y, width, height, opacity in row:
+            roof_y = base_y - height
+            svg.append(f'<rect x="{x}" y="{roof_y}" width="{width}" height="{height}" fill="#0A1427" opacity="{opacity}"/>')
+            svg.append(f'<path d="M {x - 5} {roof_y} L {x + width/2:.1f} {roof_y - 12} L {x + width + 5} {roof_y} Z" fill="#182B42" opacity="{opacity}"/>')
+            # windows remain warm but subdued; never bright enough to steal attention from the sky
+            for wx in (x + 5, x + width - 10):
+                svg.append(f'<rect x="{wx}" y="{roof_y + 7}" width="5" height="5" fill="#F8D57B" opacity="{opacity * 0.45}"/>')
+            svg.append(f'<rect x="{x + width/2 - 3}" y="{roof_y + 11}" width="6" height="6" fill="#F8D57B" opacity="{opacity * 0.35}"/>')
+    return svg
+
+
 # ============================================================
 # Contribution grid — its own clearly-separated "data band"
 # ============================================================
@@ -458,7 +500,9 @@ def draw_star_cell(cx, cy, level):
     else:
         size, glow = 4.2, 1.0
 
-    color = random.choice(STAR_COLORS)
+    # GitHub contribution cells with actual commits are highlighted in gold,
+    # while empty cells stay in the quieter blue palette.
+    color = random.choice(["#F8D57B", "#F6C75B", "#FFE59B", "#F4B942"])
     delay = random.uniform(0, 4)
 
     result.append(f'<g class="twinkle" style="animation-delay:{delay:.2f}s">')
@@ -516,29 +560,41 @@ def generate_svg(contributions):
         f'href="data:{sky_mime};base64,{sky_b64}" preserveAspectRatio="none"/>'
     )
 
+    for path_cfg in flow_paint.build_flow_paths(count=26):
+        svg.append(
+            f'<path class="flow-line" d="{path_cfg["d"]}" stroke="{path_cfg["stroke"]}" '
+            f'stroke-width="{path_cfg["width"]:.2f}" opacity="{path_cfg["opacity"]:.2f}" '
+            f'style="animation-delay:{path_cfg["delay"]:.2f}s"/>'
+        )
+
     # 月亮
     svg.extend(draw_moon())
 
-    # 装饰性小星星（只铺在天空区域，不进入村庄/数据带）
+    # 装饰性小星星（降低亮度，改成暗蓝色系，避免抢掉画面的主视觉）
     for _ in range(120):
         x = random.randint(20, WIDTH - 20)
         y = random.randint(20, HORIZON_Y - 70)
         size = random.choice([1, 1, 1, 1.5, 2])
         color = random.choice(STAR_COLORS)
         delay = random.uniform(0, 6)
+        opacity = random.uniform(0.18, 0.5)
         svg.append(
             f'<circle class="twinkle" cx="{x}" cy="{y}" r="{size}" fill="{color}" '
-            f'opacity="0.5" style="animation-delay:{delay:.2f}s"/>'
+            f'opacity="{opacity:.2f}" style="animation-delay:{delay:.2f}s"/>'
         )
 
-    # 山 -> 村庄剪影（窄带，与数据区分离）-> 数据网格
+    # 山 -> 村庄剪影（窄带，与数据区分离）
     svg.extend(draw_mountains())
     svg.extend(draw_village_skyline())
-    svg.extend(draw_contribution_grid(contributions))
 
-    # 柏树放在最前景，压住村庄左侧边界，顶部伸进天空
-    cypress_svg, _ = draw_cypress(base_x=105, base_y=HEIGHT, height=440, width=92)
+    # 保守的房子群：有大有小、远近分层，但不抢天光，也不碰数据表
+    svg.extend(draw_houses())
+
+    # 柏树放在村庄前方，但必须留出表格区，不挡住数据面板
+    cypress_svg, _ = draw_cypress(base_x=110, base_y=HEIGHT, height=360, width=72)
     svg.extend(cypress_svg)
+
+    svg.extend(draw_contribution_grid(contributions))
 
     # 画布纹理叠加（整体最上层，微弱颗粒感）
     svg.append(f'<rect width="{WIDTH}" height="{HEIGHT}" filter="url(#canvasTexture)" opacity="0.5"/>')
