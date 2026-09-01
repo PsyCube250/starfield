@@ -488,7 +488,13 @@ def draw_houses():
 def draw_star_cell(cx, cy, level):
     result = []
     if level <= 0:
-        result.append(circle(cx, cy, 1.4, "#1B3A5C", 0.6))
+        # no commit: blue star remains visible, matching the requested semantics
+        color = random.choice(["#7AA9D6", "#9EC4E6", "#B9D8F5", "#8DB5DA"])
+        size = 1.8
+        delay = random.uniform(0, 4)
+        result.append(f'<g class="twinkle" style="animation-delay:{delay:.2f}s">')
+        result.append(circle(cx, cy, size, color, 0.6))
+        result.append("</g>")
         return result
 
     if level <= 2:
@@ -500,8 +506,7 @@ def draw_star_cell(cx, cy, level):
     else:
         size, glow = 4.2, 1.0
 
-    # GitHub contribution cells with actual commits are highlighted in gold,
-    # while empty cells stay in the quieter blue palette.
+    # commit: gold star highlight in the active contribution cells
     color = random.choice(["#F8D57B", "#F6C75B", "#FFE59B", "#F4B942"])
     delay = random.uniform(0, 4)
 
