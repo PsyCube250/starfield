@@ -73,29 +73,6 @@ ANIMATION_CSS = """
     15%  { opacity: 0.7; }
     100% { stroke-dashoffset: 0; opacity: 0.95; }
 }
-@keyframes twinkle {
-    0%, 100% { opacity: 0.35; transform: scale(0.85); }
-    50%      { opacity: 1;    transform: scale(1.25); }
-}
-@keyframes breathe {
-    0%, 100% { opacity: 0.75; transform: scale(0.96); }
-    50%      { opacity: 1;    transform: scale(1.05); }
-}
-@keyframes swirl-drift {
-    0%   { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-@keyframes flow-dash {
-    0%   { stroke-dashoffset: 240; opacity: 0.25; }
-    15%  { opacity: 0.7; }
-    100% { stroke-dashoffset: 0; opacity: 0.95; }
-}
-@keyframes drift-wave {
-    0%, 100% { transform: translateX(-12px) translateY(0px); }
-    25%      { transform: translateX(8px) translateY(-2px); }
-    50%      { transform: translateX(12px) translateY(1px); }
-    75%      { transform: translateX(-8px) translateY(2px); }
-}
 .twinkle { transform-box: fill-box; transform-origin: center; animation: twinkle 3.5s ease-in-out infinite; }
 .breathe { transform-box: fill-box; transform-origin: center; animation: breathe 6s ease-in-out infinite; }
 .spiral-slow { transform-box: fill-box; transform-origin: center; animation: swirl-drift 240s linear infinite; }
@@ -106,11 +83,6 @@ ANIMATION_CSS = """
     stroke-dasharray: 18 28;
     animation: flow-dash 16s linear infinite;
     filter: drop-shadow(0 0 8px rgba(166, 220, 255, 0.18));
-}
-.wave-panel {
-    animation: drift-wave 16s ease-in-out infinite;
-    transform-box: fill-box;
-    transform-origin: center;
 }
 </style>
 """
@@ -516,22 +488,13 @@ def draw_houses():
 def draw_star_cell(cx, cy, level):
     result = []
     if level <= 0:
-        # no commit: keep the cell in a deep blue family and vary the base hue slightly,
-        # then create an internal dark-to-gold-ish gradient within a narrow range so it
-        # feels organic rather than flat, while avoiding overly light values.
-        base_hue = random.choice(["#0E2341", "#102B4D", "#122F52", "#16355C", "#1A2F4D"])
-        tint = random.uniform(0.5, 0.9)
-        # 让底色整体保持深蓝平均约 50%，但随机起点后做一段很轻微的渐变
-        start = base_hue
-        end = "#234E81" if tint < 0.65 else "#2E5E90"
-        result.append(
-            f'<rect x="{cx - 5:.1f}" y="{cy - 5:.1f}" width="10" height="10" '
-            f'rx="2" fill="{start}" stroke="{end}" stroke-width="0.9" opacity="0.82"/>'
-        )
-        result.append(
-            f'<rect x="{cx - 4.1:.1f}" y="{cy - 4.1:.1f}" width="8.2" height="8.2" '
-            f'rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>'
-        )
+        # no commit: blue star remains visible, matching the requested semantics
+        color = random.choice(["#7AA9D6", "#9EC4E6", "#B9D8F5", "#8DB5DA"])
+        size = 1.8
+        delay = random.uniform(0, 4)
+        result.append(f'<g class="twinkle" style="animation-delay:{delay:.2f}s">')
+        result.append(circle(cx, cy, size, color, 0.6))
+        result.append("</g>")
         return result
 
     if level <= 2:
@@ -567,7 +530,7 @@ def draw_contribution_grid(contributions):
 
     # 柔和的面板底色，让数据区在场景里读得出来是"一块"，不再和村庄混在一起
     svg.append(
-        f'<rect class="wave-panel" x="{start_x-14}" y="{GRID_TOP-14}" width="{grid_w+28:.1f}" height="{grid_h+28}" '
+        f'<rect x="{start_x-14}" y="{GRID_TOP-14}" width="{grid_w+28:.1f}" height="{grid_h+28}" '
         f'rx="10" fill="url(#gridPanel)"/>'
     )
 
@@ -612,7 +575,7 @@ def generate_svg(contributions):
     # 月亮
     svg.extend(draw_moon())
 
-    # 叠回之前认可的星星层：小而淡，保持夜空氛围，不干扰表格识别
+    # 装饰性小星星（降低亮度，改成暗蓝色系，避免抢掉画面的主视觉）
     for _ in range(120):
         x = random.randint(20, WIDTH - 20)
         y = random.randint(20, HORIZON_Y - 70)
