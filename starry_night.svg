@@ -150,6 +150,76 @@
 <circle cx="1005.0" cy="105.0" r="46.0" fill="#FFE9A8" opacity="1"/>
 <circle cx="1030.3" cy="96.1" r="48.3" fill="#050D1F" opacity="1"/>
 </g>
+<circle class="twinkle" cx="813" cy="225" r="1" fill="#A7B9D9" opacity="0.41" style="animation-delay:4.03s"/>
+<circle class="twinkle" cx="1165" cy="143" r="1" fill="#B9D8F5" opacity="0.26" style="animation-delay:5.46s"/>
+<circle class="twinkle" cx="884" cy="256" r="2" fill="#A7B9D9" opacity="0.47" style="animation-delay:1.86s"/>
+<circle class="twinkle" cx="345" cy="109" r="1.5" fill="#9EC4E6" opacity="0.27" style="animation-delay:5.57s"/>
+<circle class="twinkle" cx="886" cy="253" r="1" fill="#7D9CC0" opacity="0.33" style="animation-delay:3.95s"/>
+<circle class="twinkle" cx="461" cy="119" r="1" fill="#7D9CC0" opacity="0.29" style="animation-delay:5.14s"/>
+<circle class="twinkle" cx="753" cy="128" r="1" fill="#7AA9D6" opacity="0.45" style="animation-delay:4.96s"/>
+<circle class="twinkle" cx="113" cy="282" r="1.5" fill="#7D9CC0" opacity="0.26" style="animation-delay:5.42s"/>
+<circle class="twinkle" cx="990" cy="178" r="2" fill="#A7B9D9" opacity="0.43" style="animation-delay:3.02s"/>
+<circle class="twinkle" cx="566" cy="286" r="1" fill="#A7B9D9" opacity="0.42" style="animation-delay:0.20s"/>
+<circle class="twinkle" cx="270" cy="145" r="2" fill="#7AA9D6" opacity="0.40" style="animation-delay:5.95s"/>
+<circle class="twinkle" cx="556" cy="84" r="2" fill="#A7B9D9" opacity="0.19" style="animation-delay:0.70s"/>
+<circle class="twinkle" cx="207" cy="117" r="2" fill="#7AA9D6" opacity="0.38" style="animation-delay:2.16s"/>
+<circle class="twinkle" cx="1098" cy="160" r="2" fill="#7AA9D6" opacity="0.24" style="animation-delay:2.72s"/>
+<circle class="twinkle" cx="816" cy="115" r="1.5" fill="#B9D8F5" opacity="0.43" style="animation-delay:3.82s"/>
+<circle class="twinkle" cx="101" cy="97" r="1" fill="#7D9CC0" opacity="0.35" style="animation-delay:0.21s"/>
+<circle class="twinkle" cx="117" cy="167" r="1" fill="#9EC4E6" opacity="0.44" style="animation-delay:2.21s"/>
+<circle class="twinkle" cx="174" cy="35" r="1" fill="#A7B9D9" opacity="0.32" style="animation-delay:2.42s"/>
+<circle class="twinkle" cx="586" cy="304" r="1.5" fill="#7AA9D6" opacity="0.29" style="animation-delay:2.84s"/>
+<circle class="twinkle" cx="914" cy="27" r="1.5" fill="#7AA9D6" opacity="0.49" style="animation-delay:4.30s"/>
+<circle class="twinkle" cx="393" cy="197" r="1" fill="#7D9CC0" opacity="0.48" style="animation-delay:4.06s"/>
+<circle class="twinkle" cx="427" cy="264" r="1.5" fill="#7AA9D6" opacity="0.23" style="animation-delay:5.55s"/>
+<circle class="twinkle" cx="35" cy="53" r="1" fill="#7D9CC0" opacity="0.26" style="animation-delay:2.16s"/>
+<circle class="twinkle" cx="719" cy="63" r="1" fill="#7AA9D6" opacity="0.47" style="animation-delay:1.83s"/>
+<circle class="twinkle" cx="846" cy="174" r="2" fill="#9EC4E6" opacity="0.41" style="animation-delay:0.35s"/>
+<circle class="twinkle" cx="49" cy="203" r="1" fill="#B9D8F5" opacity="0.31" style="animation-delay:0.20s"/>
+<circle class="twinkle" cx="566" cy="190" r="1" fill="#B9D8F5" opacity="0.39" style="animation-delay:4.79s"/>
+<circle class="twinkle" cx="633" cy="247" r="1" fill="#7AA9D6" opacity="0.35" style="animation-delay:1.40s"/>
+<circle class="twinkle" cx="54" cy="28" r="2" fill="#7AA9D6" opacity="0.18" style="animation-delay:4.95s"/>
+<circle class="twinkle" cx="1179" cy="211" r="1" fill="#B9D8F5" opacity="0.41" style="animation-delay:5.85s"/>
+<circle class="twinkle" cx="718" cy="117" r="1" fill="#9EC4E6" opacity="0.32" style="animation-delay:2.84s"/>
+<circle class="twinkle" cx="1127" cy="310" r="2" fill="#7AA9D6" opacity="0.25" style="animation-delay:2.88s"/>
+<circle class="twinkle" cx="517" cy="67" r="1" fill="#B9D8F5" opacity="0.50" style="animation-delay:5.23s"/>
+<circle class="twinkle" cx="450" cy="308" r="1.5" fill="#7AA9D6" opacity="0.35" style="animation-delay:1.69s"/>
+<circle class="twinkle" cx="31" cy="34" r="1.5" fill="#B9D8F5" opacity="0.26" style="animation-delay:0.22s"/>
+<circle class="twinkle" cx="411" cy="50" r="1" fill="#9EC4E6" opacity="0.22" style="animation-delay:3.83s"/>
+<circle class="twinkle" cx="259" cy="33" r="1" fill="#7D9CC0" opacity="0.22" style="animation-delay:1.29s"/>
+<circle class="twinkle" cx="708" cy="266" r="2" fill="#A7B9D9" opacity="0.19" style="animation-delay:4.63s"/>
+<circle class="twinkle" cx="958" cy="202" r="1.5" fill="#A7B9D9" opacity="0.33" style="animation-delay:5.40s"/>
+<circle class="twinkle" cx="1091" cy="52" r="1" fill="#7D9CC0" opacity="0.22" style="animation-delay:2.81s"/>
+<circle class="twinkle" cx="917" cy="219" r="1" fill="#B9D8F5" opacity="0.25" style="animation-delay:0.20s"/>
+<circle class="twinkle" cx="53" cy="228" r="1" fill="#7D9CC0" opacity="0.30" style="animation-delay:1.45s"/>
+<circle class="twinkle" cx="699" cy="77" r="1.5" fill="#9EC4E6" opacity="0.25" style="animation-delay:4.22s"/>
+<circle class="twinkle" cx="953" cy="31" r="1.5" fill="#B9D8F5" opacity="0.39" style="animation-delay:5.33s"/>
+<circle class="twinkle" cx="749" cy="43" r="2" fill="#9EC4E6" opacity="0.35" style="animation-delay:5.22s"/>
+<circle class="twinkle" cx="404" cy="149" r="1" fill="#B9D8F5" opacity="0.31" style="animation-delay:4.20s"/>
+<circle class="twinkle" cx="1043" cy="42" r="1.5" fill="#B9D8F5" opacity="0.44" style="animation-delay:5.82s"/>
+<circle class="twinkle" cx="369" cy="283" r="1" fill="#7D9CC0" opacity="0.30" style="animation-delay:4.19s"/>
+<circle class="twinkle" cx="1137" cy="268" r="1.5" fill="#7D9CC0" opacity="0.39" style="animation-delay:0.62s"/>
+<circle class="twinkle" cx="613" cy="185" r="2" fill="#9EC4E6" opacity="0.37" style="animation-delay:5.43s"/>
+<circle class="twinkle" cx="665" cy="211" r="1" fill="#B9D8F5" opacity="0.42" style="animation-delay:5.69s"/>
+<circle class="twinkle" cx="681" cy="184" r="1.5" fill="#7AA9D6" opacity="0.47" style="animation-delay:1.39s"/>
+<circle class="twinkle" cx="301" cy="99" r="2" fill="#9EC4E6" opacity="0.49" style="animation-delay:2.81s"/>
+<circle class="twinkle" cx="250" cy="73" r="1" fill="#B9D8F5" opacity="0.48" style="animation-delay:3.45s"/>
+<circle class="twinkle" cx="831" cy="262" r="1" fill="#7AA9D6" opacity="0.46" style="animation-delay:1.66s"/>
+<circle class="twinkle" cx="1101" cy="238" r="1" fill="#7D9CC0" opacity="0.23" style="animation-delay:1.90s"/>
+<circle class="twinkle" cx="640" cy="285" r="1.5" fill="#7D9CC0" opacity="0.48" style="animation-delay:2.81s"/>
+<circle class="twinkle" cx="584" cy="271" r="1" fill="#7D9CC0" opacity="0.19" style="animation-delay:3.72s"/>
+<circle class="twinkle" cx="589" cy="189" r="1" fill="#9EC4E6" opacity="0.23" style="animation-delay:1.75s"/>
+<circle class="twinkle" cx="318" cy="40" r="2" fill="#7D9CC0" opacity="0.50" style="animation-delay:1.95s"/>
+<circle class="twinkle" cx="666" cy="304" r="1" fill="#9EC4E6" opacity="0.20" style="animation-delay:0.98s"/>
+<circle class="twinkle" cx="104" cy="31" r="1" fill="#9EC4E6" opacity="0.50" style="animation-delay:3.75s"/>
+<circle class="twinkle" cx="499" cy="214" r="1.5" fill="#7AA9D6" opacity="0.29" style="animation-delay:4.13s"/>
+<circle class="twinkle" cx="810" cy="115" r="1" fill="#B9D8F5" opacity="0.25" style="animation-delay:5.43s"/>
+<circle class="twinkle" cx="337" cy="223" r="1" fill="#7AA9D6" opacity="0.48" style="animation-delay:5.12s"/>
+<circle class="twinkle" cx="1175" cy="184" r="2" fill="#A7B9D9" opacity="0.23" style="animation-delay:3.35s"/>
+<circle class="twinkle" cx="471" cy="71" r="1" fill="#B9D8F5" opacity="0.23" style="animation-delay:5.43s"/>
+<circle class="twinkle" cx="438" cy="22" r="1.5" fill="#7D9CC0" opacity="0.28" style="animation-delay:1.65s"/>
+<circle class="twinkle" cx="112" cy="40" r="1.5" fill="#9EC4E6" opacity="0.26" style="animation-delay:2.54s"/>
+<circle class="twinkle" cx="307" cy="246" r="1" fill="#7AA9D6" opacity="0.42" style="animation-delay:2.58s"/>
 <circle class="twinkle" cx="526" cy="62" r="2" fill="#7AA9D6" opacity="0.26" style="animation-delay:5.20s"/>
 <circle class="twinkle" cx="114" cy="272" r="1.5" fill="#7D9CC0" opacity="0.37" style="animation-delay:1.89s"/>
 <circle class="twinkle" cx="911" cy="310" r="1" fill="#7D9CC0" opacity="0.41" style="animation-delay:0.67s"/>
@@ -200,76 +270,6 @@
 <circle class="twinkle" cx="43" cy="203" r="2" fill="#7AA9D6" opacity="0.19" style="animation-delay:2.74s"/>
 <circle class="twinkle" cx="900" cy="295" r="1" fill="#9EC4E6" opacity="0.41" style="animation-delay:1.34s"/>
 <circle class="twinkle" cx="873" cy="283" r="1" fill="#7AA9D6" opacity="0.31" style="animation-delay:4.77s"/>
-<circle class="twinkle" cx="303" cy="257" r="2" fill="#7AA9D6" opacity="0.28" style="animation-delay:5.31s"/>
-<circle class="twinkle" cx="26" cy="122" r="2" fill="#A7B9D9" opacity="0.20" style="animation-delay:3.64s"/>
-<circle class="twinkle" cx="1078" cy="67" r="1" fill="#7D9CC0" opacity="0.41" style="animation-delay:3.58s"/>
-<circle class="twinkle" cx="257" cy="304" r="1" fill="#9EC4E6" opacity="0.21" style="animation-delay:5.25s"/>
-<circle class="twinkle" cx="493" cy="274" r="1.5" fill="#9EC4E6" opacity="0.23" style="animation-delay:5.51s"/>
-<circle class="twinkle" cx="815" cy="161" r="1" fill="#A7B9D9" opacity="0.23" style="animation-delay:2.33s"/>
-<circle class="twinkle" cx="149" cy="229" r="1" fill="#B9D8F5" opacity="0.34" style="animation-delay:5.44s"/>
-<circle class="twinkle" cx="895" cy="234" r="1" fill="#7D9CC0" opacity="0.34" style="animation-delay:1.25s"/>
-<circle class="twinkle" cx="121" cy="134" r="2" fill="#9EC4E6" opacity="0.39" style="animation-delay:0.60s"/>
-<circle class="twinkle" cx="897" cy="53" r="1.5" fill="#B9D8F5" opacity="0.44" style="animation-delay:2.69s"/>
-<circle class="twinkle" cx="93" cy="252" r="2" fill="#7AA9D6" opacity="0.45" style="animation-delay:0.58s"/>
-<circle class="twinkle" cx="387" cy="295" r="1" fill="#B9D8F5" opacity="0.21" style="animation-delay:1.75s"/>
-<circle class="twinkle" cx="471" cy="207" r="1.5" fill="#7AA9D6" opacity="0.24" style="animation-delay:4.59s"/>
-<circle class="twinkle" cx="21" cy="242" r="1.5" fill="#A7B9D9" opacity="0.44" style="animation-delay:0.66s"/>
-<circle class="twinkle" cx="1001" cy="106" r="1.5" fill="#7AA9D6" opacity="0.33" style="animation-delay:3.45s"/>
-<circle class="twinkle" cx="482" cy="287" r="1" fill="#A7B9D9" opacity="0.26" style="animation-delay:5.09s"/>
-<circle class="twinkle" cx="1161" cy="217" r="2" fill="#B9D8F5" opacity="0.50" style="animation-delay:1.80s"/>
-<circle class="twinkle" cx="215" cy="131" r="1.5" fill="#A7B9D9" opacity="0.38" style="animation-delay:1.62s"/>
-<circle class="twinkle" cx="93" cy="207" r="1" fill="#9EC4E6" opacity="0.28" style="animation-delay:3.49s"/>
-<circle class="twinkle" cx="489" cy="197" r="1" fill="#B9D8F5" opacity="0.20" style="animation-delay:4.36s"/>
-<circle class="twinkle" cx="71" cy="109" r="1" fill="#7AA9D6" opacity="0.19" style="animation-delay:1.98s"/>
-<circle class="twinkle" cx="851" cy="264" r="1.5" fill="#B9D8F5" opacity="0.47" style="animation-delay:1.49s"/>
-<circle class="twinkle" cx="1150" cy="170" r="1" fill="#7AA9D6" opacity="0.41" style="animation-delay:5.21s"/>
-<circle class="twinkle" cx="712" cy="263" r="2" fill="#7AA9D6" opacity="0.32" style="animation-delay:2.72s"/>
-<circle class="twinkle" cx="798" cy="94" r="1.5" fill="#9EC4E6" opacity="0.22" style="animation-delay:5.91s"/>
-<circle class="twinkle" cx="1105" cy="189" r="1" fill="#9EC4E6" opacity="0.35" style="animation-delay:2.41s"/>
-<circle class="twinkle" cx="351" cy="242" r="2" fill="#A7B9D9" opacity="0.35" style="animation-delay:3.23s"/>
-<circle class="twinkle" cx="1078" cy="215" r="1.5" fill="#7AA9D6" opacity="0.23" style="animation-delay:4.69s"/>
-<circle class="twinkle" cx="952" cy="137" r="1" fill="#B9D8F5" opacity="0.47" style="animation-delay:0.56s"/>
-<circle class="twinkle" cx="930" cy="77" r="1" fill="#B9D8F5" opacity="0.39" style="animation-delay:3.36s"/>
-<circle class="twinkle" cx="988" cy="75" r="1.5" fill="#9EC4E6" opacity="0.41" style="animation-delay:0.48s"/>
-<circle class="twinkle" cx="512" cy="51" r="2" fill="#7D9CC0" opacity="0.46" style="animation-delay:3.78s"/>
-<circle class="twinkle" cx="928" cy="118" r="1" fill="#7D9CC0" opacity="0.21" style="animation-delay:2.26s"/>
-<circle class="twinkle" cx="81" cy="198" r="2" fill="#B9D8F5" opacity="0.40" style="animation-delay:0.37s"/>
-<circle class="twinkle" cx="130" cy="186" r="1" fill="#7AA9D6" opacity="0.47" style="animation-delay:3.91s"/>
-<circle class="twinkle" cx="31" cy="175" r="1.5" fill="#7AA9D6" opacity="0.28" style="animation-delay:2.56s"/>
-<circle class="twinkle" cx="538" cy="246" r="1.5" fill="#B9D8F5" opacity="0.47" style="animation-delay:5.78s"/>
-<circle class="twinkle" cx="499" cy="23" r="1" fill="#B9D8F5" opacity="0.24" style="animation-delay:2.95s"/>
-<circle class="twinkle" cx="298" cy="186" r="1" fill="#7D9CC0" opacity="0.24" style="animation-delay:2.93s"/>
-<circle class="twinkle" cx="142" cy="115" r="1" fill="#7AA9D6" opacity="0.39" style="animation-delay:5.27s"/>
-<circle class="twinkle" cx="97" cy="189" r="2" fill="#9EC4E6" opacity="0.33" style="animation-delay:4.02s"/>
-<circle class="twinkle" cx="65" cy="243" r="1" fill="#9EC4E6" opacity="0.20" style="animation-delay:1.97s"/>
-<circle class="twinkle" cx="221" cy="111" r="1.5" fill="#B9D8F5" opacity="0.42" style="animation-delay:3.50s"/>
-<circle class="twinkle" cx="760" cy="133" r="1" fill="#7D9CC0" opacity="0.31" style="animation-delay:5.36s"/>
-<circle class="twinkle" cx="911" cy="252" r="2" fill="#7AA9D6" opacity="0.37" style="animation-delay:3.68s"/>
-<circle class="twinkle" cx="79" cy="73" r="2" fill="#A7B9D9" opacity="0.41" style="animation-delay:3.29s"/>
-<circle class="twinkle" cx="119" cy="70" r="2" fill="#7AA9D6" opacity="0.40" style="animation-delay:5.59s"/>
-<circle class="twinkle" cx="1088" cy="256" r="2" fill="#9EC4E6" opacity="0.24" style="animation-delay:1.07s"/>
-<circle class="twinkle" cx="663" cy="277" r="2" fill="#7D9CC0" opacity="0.40" style="animation-delay:4.88s"/>
-<circle class="twinkle" cx="133" cy="162" r="2" fill="#9EC4E6" opacity="0.23" style="animation-delay:3.38s"/>
-<circle class="twinkle" cx="83" cy="157" r="1" fill="#9EC4E6" opacity="0.42" style="animation-delay:3.80s"/>
-<circle class="twinkle" cx="400" cy="180" r="1.5" fill="#9EC4E6" opacity="0.40" style="animation-delay:4.45s"/>
-<circle class="twinkle" cx="978" cy="34" r="2" fill="#B9D8F5" opacity="0.45" style="animation-delay:4.16s"/>
-<circle class="twinkle" cx="98" cy="75" r="1" fill="#B9D8F5" opacity="0.27" style="animation-delay:1.56s"/>
-<circle class="twinkle" cx="263" cy="241" r="1" fill="#7AA9D6" opacity="0.36" style="animation-delay:5.51s"/>
-<circle class="twinkle" cx="638" cy="234" r="1.5" fill="#A7B9D9" opacity="0.48" style="animation-delay:0.11s"/>
-<circle class="twinkle" cx="392" cy="186" r="1.5" fill="#B9D8F5" opacity="0.33" style="animation-delay:5.51s"/>
-<circle class="twinkle" cx="73" cy="192" r="1" fill="#7D9CC0" opacity="0.23" style="animation-delay:1.12s"/>
-<circle class="twinkle" cx="571" cy="290" r="1.5" fill="#9EC4E6" opacity="0.26" style="animation-delay:1.79s"/>
-<circle class="twinkle" cx="438" cy="73" r="1" fill="#9EC4E6" opacity="0.22" style="animation-delay:3.20s"/>
-<circle class="twinkle" cx="726" cy="160" r="1" fill="#A7B9D9" opacity="0.43" style="animation-delay:1.09s"/>
-<circle class="twinkle" cx="827" cy="71" r="1" fill="#9EC4E6" opacity="0.32" style="animation-delay:2.56s"/>
-<circle class="twinkle" cx="613" cy="46" r="2" fill="#7AA9D6" opacity="0.42" style="animation-delay:3.33s"/>
-<circle class="twinkle" cx="75" cy="32" r="1" fill="#A7B9D9" opacity="0.25" style="animation-delay:5.64s"/>
-<circle class="twinkle" cx="112" cy="43" r="1" fill="#7AA9D6" opacity="0.32" style="animation-delay:4.17s"/>
-<circle class="twinkle" cx="57" cy="28" r="2" fill="#9EC4E6" opacity="0.49" style="animation-delay:1.66s"/>
-<circle class="twinkle" cx="1050" cy="238" r="1" fill="#9EC4E6" opacity="0.41" style="animation-delay:5.15s"/>
-<circle class="twinkle" cx="379" cy="31" r="2" fill="#A7B9D9" opacity="0.30" style="animation-delay:3.30s"/>
-<circle class="twinkle" cx="1078" cy="180" r="2" fill="#9EC4E6" opacity="0.39" style="animation-delay:5.11s"/>
-<circle class="twinkle" cx="600" cy="215" r="1" fill="#9EC4E6" opacity="0.30" style="animation-delay:3.91s"/>
 
     <path d="M0 365
         C120 335 200 355 300 325
@@ -413,1346 +413,800 @@
 <path d="M 112.9 322.4 Q 115.8 299.0 133.0 275.6" stroke="#123A68" stroke-width="2.6" opacity="0.55" fill="none" stroke-linecap="round"/>
 <path d="M 89.8 272.0 Q 104.2 248.6 110.0 225.2" stroke="#123A68" stroke-width="2.6" opacity="0.55" fill="none" stroke-linecap="round"/>
 </g>
-<rect class="wave-panel" x="46" y="421" width="1068.0" height="147" rx="10" fill="url(#gridPanel)"/>
-<g class="twinkle" style="animation-delay:3.56s">
-<circle cx="60" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="60.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.08s">
-<circle cx="60" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="60.0" cy="452.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 54.5 452 L 65.5 452" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 60 446.5 L 60 457.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.90s">
-<circle cx="60" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="60.0" cy="469.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="55.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect class="wave-panel" x="46" y="421" width="1088.0" height="147" rx="10" fill="url(#gridPanel)"/>
+<rect x="55.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="55.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="55.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="55.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="55.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="55.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="55.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="55.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="55.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="55.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="55.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="55.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="55.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="55.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="55.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="55.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.95s">
-<circle cx="80" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="80.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.74s">
-<circle cx="80" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="80.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.04s">
-<circle cx="80" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="80.0" cy="469.0" r="3.2" fill="#FFE59B" opacity="0.9"/>
-<path d="M 73.0 469 L 87.0 469" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 80 462.0 L 80 476.0" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.78s">
-<circle cx="80" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="80.0" cy="486.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.62s">
-<circle cx="80" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="80.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="75.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="75.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="75.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="75.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="75.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="75.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="75.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="75.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="75.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="75.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="75.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="75.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="75.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.46s">
-<circle cx="80" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="80.0" cy="537.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 74.5 537 L 85.5 537" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 80 531.5 L 80 542.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.45s">
-<circle cx="100" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="100.0" cy="435.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-</g>
-<rect x="95.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="75.0" y="532.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="75.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="95.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="95.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="95.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="95.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.46s">
-<circle cx="100" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="100.0" cy="469.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:3.33s">
-<circle cx="100" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="100.0" cy="486.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="95.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="95.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="95.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="95.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="95.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="95.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="95.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.20s">
-<circle cx="100" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="100.0" cy="520.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
+<rect x="95.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="95.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="95.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="95.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.50s">
-<circle cx="120" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="120.0" cy="435.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.23s">
-<circle cx="120" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="120.0" cy="452.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:3.32s">
-<circle cx="120" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="120.0" cy="469.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.41s">
-<circle cx="120" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="120.0" cy="486.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.37s">
-<circle cx="120" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="120.0" cy="503.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.90s">
-<circle cx="120" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="120.0" cy="520.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.67s">
-<circle cx="120" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="120.0" cy="537.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.95s">
-<circle cx="140" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="140.0" cy="435.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="135.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="115.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="115.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="115.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="115.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="115.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="115.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="115.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="115.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="115.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="115.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="115.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="115.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="115.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="115.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="135.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="135.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="135.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="135.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.40s">
-<circle cx="140" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="140.0" cy="469.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 134.5 469 L 145.5 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 140 463.5 L 140 474.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.07s">
-<circle cx="140" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="140.0" cy="486.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.69s">
-<circle cx="140" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="140.0" cy="503.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 134.5 503 L 145.5 503" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 140 497.5 L 140 508.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.22s">
-<circle cx="140" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="140.0" cy="520.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:2.14s">
-<circle cx="140" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="140.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.89s">
-<circle cx="160" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="160.0" cy="435.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<rect x="155.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="135.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="135.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="135.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="135.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="135.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="135.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="135.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="135.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="135.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="135.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="155.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="155.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="155.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="155.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.25s">
-<circle cx="160" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="160.0" cy="469.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:1.72s">
-<circle cx="160" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="160.0" cy="486.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:2.60s">
-<circle cx="160" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="160.0" cy="503.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:3.12s">
-<circle cx="160" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="160.0" cy="520.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.98s">
-<circle cx="160" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="160.0" cy="537.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 154.5 537 L 165.5 537" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 160 531.5 L 160 542.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.62s">
-<circle cx="180" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="180.0" cy="435.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 174.5 435 L 185.5 435" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 180 429.5 L 180 440.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="175.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="155.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="155.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="155.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="155.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="155.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="155.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="155.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="155.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="155.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="155.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="175.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="175.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="175.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="175.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.26s">
-<circle cx="180" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="180.0" cy="469.0" r="1.8" fill="#F4B942" opacity="0.5"/>
+<rect x="175.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="175.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="175.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="175.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="175.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="175.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="175.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="175.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:3.16s">
+<circle cx="180" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="180.0" cy="537.0" r="1.8" fill="#F4B942" opacity="0.5"/>
 </g>
-<g class="twinkle" style="animation-delay:0.85s">
-<circle cx="180" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="180.0" cy="486.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.66s">
-<circle cx="180" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="180.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.75s">
-<circle cx="180" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="180.0" cy="520.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<rect x="175.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="175.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.35s">
-<circle cx="200" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="200.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="195.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="195.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="195.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="195.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="195.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.12s">
-<circle cx="200" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="200.0" cy="469.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 194.5 469 L 205.5 469" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 200 463.5 L 200 474.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.02s">
-<circle cx="200" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="200.0" cy="486.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.10s">
-<circle cx="200" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="200.0" cy="503.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.70s">
-<circle cx="200" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="200.0" cy="520.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-</g>
-<rect x="195.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="195.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="195.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="195.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="195.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="195.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="195.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="195.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="195.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="195.0" y="532.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="195.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.69s">
-<circle cx="220" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="220.0" cy="435.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-</g>
-<rect x="215.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="215.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="215.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="215.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="215.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="215.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="215.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="215.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="215.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="215.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="215.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.33s">
-<circle cx="220" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="220.0" cy="503.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 214.5 503 L 225.5 503" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 220 497.5 L 220 508.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.06s">
-<circle cx="220" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="220.0" cy="520.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:3.46s">
-<circle cx="220" cy="537" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="220.0" cy="537.0" r="4.2" fill="#F4B942" opacity="1.0"/>
-<path d="M 210.8 537 L 229.2 537" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 220 527.8 L 220 546.2" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="235.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="215.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="215.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="215.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="215.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="215.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="215.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="235.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="235.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="235.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="235.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="235.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.24s">
-<circle cx="240" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="240.0" cy="469.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="235.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="235.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="235.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="235.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="235.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.03s">
-<circle cx="240" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="240.0" cy="503.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 234.5 503 L 245.5 503" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 240 497.5 L 240 508.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:1.88s">
-<circle cx="240" cy="520" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="240.0" cy="520.0" r="4.2" fill="#F8D57B" opacity="1.0"/>
-<path d="M 230.8 520 L 249.2 520" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 240 510.8 L 240 529.2" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="235.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="235.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="235.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="235.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="235.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="235.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="235.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.79s">
-<circle cx="260" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="260.0" cy="435.0" r="3.2" fill="#F6C75B" opacity="0.9"/>
-<path d="M 253.0 435 L 267.0 435" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 260 428.0 L 260 442.0" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="255.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="255.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="255.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="255.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="255.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.81s">
-<circle cx="260" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="260.0" cy="469.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<rect x="255.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="255.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="255.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="255.0" y="481.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="255.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="255.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="255.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="255.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.35s">
-<circle cx="260" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="260.0" cy="520.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 254.5 520 L 265.5 520" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 260 514.5 L 260 525.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<rect x="255.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="255.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:0.91s">
+<circle cx="260" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="260.0" cy="537.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
+<path d="M 254.5 537 L 265.5 537" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 260 531.5 L 260 542.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<rect x="255.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
-<rect x="255.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.62s">
-<circle cx="280" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="280.0" cy="435.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
+<g class="twinkle" style="animation-delay:1.61s">
+<circle cx="280" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="280.0" cy="435.0" r="3.2" fill="#F6C75B" opacity="0.9"/>
+<path d="M 273.0 435 L 287.0 435" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 280 428.0 L 280 442.0" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<g class="twinkle" style="animation-delay:0.90s">
-<circle cx="280" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="280.0" cy="452.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 274.5 452 L 285.5 452" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 280 446.5 L 280 457.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.19s">
-<circle cx="280" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="280.0" cy="469.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.08s">
-<circle cx="280" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="280.0" cy="486.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.33s">
-<circle cx="280" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="280.0" cy="503.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-</g>
-<rect x="275.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="275.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="275.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="275.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="275.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="275.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="275.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="275.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="275.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="275.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="275.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.02s">
-<circle cx="280" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="280.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="295.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="275.0" y="532.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="275.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="295.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="295.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.36s">
-<circle cx="300" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="300.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.89s">
-<circle cx="300" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="300.0" cy="469.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
+<rect x="295.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="295.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="295.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="295.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="295.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="295.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="295.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="295.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="295.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.10s">
-<circle cx="300" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="300.0" cy="520.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.13s">
-<circle cx="300" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="300.0" cy="537.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:3.34s">
-<circle cx="320" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="320.0" cy="435.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 314.5 435 L 325.5 435" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 320 429.5 L 320 440.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:1.77s">
-<circle cx="320" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="320.0" cy="452.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="315.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="295.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="295.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="295.0" y="532.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="295.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="315.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="315.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="315.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="315.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="315.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="315.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="315.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="315.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="315.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="315.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="315.0" y="498.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="315.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.48s">
-<circle cx="320" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="320.0" cy="520.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
+<rect x="315.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="315.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="315.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="315.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:2.18s">
+<circle cx="340" cy="435" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="340.0" cy="435.0" r="4.2" fill="#F4B942" opacity="1.0"/>
+<path d="M 330.8 435 L 349.2 435" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 340 425.8 L 340 444.2" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<g class="twinkle" style="animation-delay:3.03s">
-<circle cx="320" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="320.0" cy="537.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="335.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="335.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.08s">
-<circle cx="340" cy="452" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="340.0" cy="452.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
-<path d="M 333.0 452 L 347.0 452" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 340 445.0 L 340 459.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.96s">
-<circle cx="340" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="340.0" cy="469.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.77s">
-<circle cx="340" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="340.0" cy="486.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.24s">
-<circle cx="340" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="340.0" cy="503.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.68s">
-<circle cx="340" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="340.0" cy="520.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.62s">
-<circle cx="340" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="340.0" cy="537.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.18s">
-<circle cx="360" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="360.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.08s">
-<circle cx="360" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="360.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.10s">
-<circle cx="360" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="360.0" cy="469.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
-<path d="M 353.0 469 L 367.0 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 360 462.0 L 360 476.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:1.58s">
-<circle cx="360" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="360.0" cy="486.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 354.5 486 L 365.5 486" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 360 480.5 L 360 491.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="355.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="335.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="335.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="335.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="335.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="335.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="335.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="335.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="335.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="335.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="335.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="335.0" y="532.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="335.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="355.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="355.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="355.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="355.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="355.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="355.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="355.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="355.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="355.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="355.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="355.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="355.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="355.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.81s">
-<circle cx="360" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="360.0" cy="537.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.79s">
-<circle cx="380" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="380.0" cy="435.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 374.5 435 L 385.5 435" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 380 429.5 L 380 440.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.81s">
-<circle cx="380" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="380.0" cy="452.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:1.75s">
-<circle cx="380" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="380.0" cy="469.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="375.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="355.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="355.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="375.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="375.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="375.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="375.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="375.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="375.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="375.0" y="481.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="375.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.67s">
-<circle cx="380" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="380.0" cy="503.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 374.5 503 L 385.5 503" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 380 497.5 L 380 508.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="375.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="375.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="375.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="375.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="375.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="375.0" y="532.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="375.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="375.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.95s">
-<circle cx="400" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="400.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="395.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="395.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="395.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="395.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="395.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.74s">
-<circle cx="400" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="400.0" cy="469.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.69s">
-<circle cx="400" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="400.0" cy="486.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:0.60s">
-<circle cx="400" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="400.0" cy="503.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<rect x="395.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="395.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="395.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="395.0" y="481.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="395.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="395.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="395.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="395.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="395.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="395.0" y="532.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="395.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="395.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.40s">
-<circle cx="420" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="420.0" cy="435.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<rect x="415.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="415.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="415.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="415.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="415.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.43s">
-<circle cx="420" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="420.0" cy="469.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 414.5 469 L 425.5 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 420 463.5 L 420 474.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="415.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="415.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="415.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="415.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="415.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.33s">
-<circle cx="420" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="420.0" cy="503.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="415.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="415.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="415.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="415.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="415.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.53s">
-<circle cx="420" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="420.0" cy="537.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<rect x="435.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="415.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="415.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="435.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="435.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.69s">
-<circle cx="440" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="440.0" cy="452.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 434.5 452 L 445.5 452" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 440 446.5 L 440 457.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.64s">
-<circle cx="440" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="440.0" cy="469.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.49s">
-<circle cx="440" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="440.0" cy="486.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 434.5 486 L 445.5 486" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 440 480.5 L 440 491.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
+<rect x="435.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="435.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="435.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="435.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="435.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="435.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="435.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="435.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.68s">
-<circle cx="440" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="440.0" cy="520.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
+<rect x="435.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="435.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="435.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="435.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="455.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="455.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="455.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.42s">
-<circle cx="460" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="460.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.69s">
-<circle cx="460" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="460.0" cy="469.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-</g>
-<rect x="455.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="455.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="455.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="455.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="455.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="455.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="455.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.59s">
-<circle cx="460" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="460.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="455.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="455.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="455.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="455.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="455.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.52s">
-<circle cx="460" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="460.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.57s">
-<circle cx="480" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="480.0" cy="435.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-</g>
+<rect x="455.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="455.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="475.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="475.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="475.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="475.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="475.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="475.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="475.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.18s">
-<circle cx="480" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="480.0" cy="486.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 474.5 486 L 485.5 486" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 480 480.5 L 480 491.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="475.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="475.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="475.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="475.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="475.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.46s">
-<circle cx="480" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="480.0" cy="520.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.54s">
-<circle cx="480" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="480.0" cy="537.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 474.5 537 L 485.5 537" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 480 531.5 L 480 542.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.83s">
-<circle cx="500" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="500.0" cy="435.0" r="3.2" fill="#F4B942" opacity="0.9"/>
-<path d="M 493.0 435 L 507.0 435" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 500 428.0 L 500 442.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.93s">
-<circle cx="500" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="500.0" cy="452.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.30s">
-<circle cx="500" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="500.0" cy="469.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="495.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="475.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="475.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="475.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="475.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="495.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="495.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="495.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="495.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="495.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="495.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="495.0" y="481.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="495.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="495.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="495.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="495.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="495.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="495.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="495.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.28s">
-<circle cx="500" cy="537" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="500.0" cy="537.0" r="4.2" fill="#F4B942" opacity="1.0"/>
-<path d="M 490.8 537 L 509.2 537" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 500 527.8 L 500 546.2" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.50s">
-<circle cx="520" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="435.0" r="3.2" fill="#FFE59B" opacity="0.9"/>
-<path d="M 513.0 435 L 527.0 435" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 520 428.0 L 520 442.0" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.11s">
-<circle cx="520" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="452.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.24s">
-<circle cx="520" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="469.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.70s">
-<circle cx="520" cy="486" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="486.0" r="3.2" fill="#F4B942" opacity="0.9"/>
-<path d="M 513.0 486 L 527.0 486" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 520 479.0 L 520 493.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.96s">
-<circle cx="520" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="515.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="495.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="495.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="515.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="515.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="515.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="515.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="515.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="515.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="515.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="515.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="515.0" y="498.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="515.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="515.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="515.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.96s">
-<circle cx="520" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="537.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 514.5 537 L 525.5 537" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 520 531.5 L 520 542.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.37s">
-<circle cx="540" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="540.0" cy="435.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<rect x="535.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="515.0" y="532.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="515.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="535.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="535.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="535.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="535.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="535.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="535.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="535.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.33s">
-<circle cx="540" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="540.0" cy="486.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 534.5 486 L 545.5 486" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 540 480.5 L 540 491.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.31s">
-<circle cx="540" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="540.0" cy="503.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.18s">
-<circle cx="540" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="540.0" cy="520.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 534.5 520 L 545.5 520" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 540 514.5 L 540 525.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.95s">
-<circle cx="540" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="540.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.37s">
-<circle cx="560" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="560.0" cy="435.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:3.20s">
-<circle cx="560" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="560.0" cy="452.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="555.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="535.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="535.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="535.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="535.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="535.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="535.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="535.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="535.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="555.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="555.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="555.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="555.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="555.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="555.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.13s">
-<circle cx="560" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="560.0" cy="486.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.32s">
-<circle cx="560" cy="503" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="560.0" cy="503.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
-<path d="M 553.0 503 L 567.0 503" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 560 496.0 L 560 510.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
+<rect x="555.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="555.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="555.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="555.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="555.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="555.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.11s">
-<circle cx="560" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="560.0" cy="537.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="575.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="555.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="555.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="575.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="575.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="575.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="575.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="575.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="575.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="575.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="575.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="575.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="575.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.20s">
-<circle cx="580" cy="503" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="580.0" cy="503.0" r="3.2" fill="#F4B942" opacity="0.9"/>
-<path d="M 573.0 503 L 587.0 503" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 580 496.0 L 580 510.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:1.01s">
-<circle cx="580" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="580.0" cy="520.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:0.06s">
-<circle cx="580" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="580.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="595.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="575.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="575.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="575.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="575.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="575.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="575.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="595.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="595.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="595.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="595.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="595.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="595.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="595.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="595.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.93s">
-<circle cx="600" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="600.0" cy="486.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.76s">
-<circle cx="600" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="600.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="595.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="595.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="595.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="595.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="595.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="595.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="595.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.21s">
-<circle cx="600" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="600.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.56s">
-<circle cx="620" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="620.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.63s">
-<circle cx="620" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="620.0" cy="452.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-</g>
-<rect x="615.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="595.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="595.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="615.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="615.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="615.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="615.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="615.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="615.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.14s">
-<circle cx="620" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="620.0" cy="486.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
+<rect x="615.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="615.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="615.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="615.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="615.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="615.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="615.0" y="532.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="615.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="635.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="635.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="635.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="635.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:2.56s">
+<circle cx="640" cy="469" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="640.0" cy="469.0" r="4.2" fill="#F6C75B" opacity="1.0"/>
+<path d="M 630.8 469 L 649.2 469" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 640 459.8 L 640 478.2" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<g class="twinkle" style="animation-delay:0.02s">
-<circle cx="620" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="620.0" cy="503.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 614.5 503 L 625.5 503" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 620 497.5 L 620 508.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<rect x="635.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="635.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:0.61s">
+<circle cx="640" cy="503" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="640.0" cy="503.0" r="3.2" fill="#F4B942" opacity="0.9"/>
+<path d="M 633.0 503 L 647.0 503" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 640 496.0 L 640 510.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<g class="twinkle" style="animation-delay:3.57s">
-<circle cx="620" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="620.0" cy="520.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
+<g class="twinkle" style="animation-delay:1.53s">
+<circle cx="640" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="640.0" cy="520.0" r="1.8" fill="#F4B942" opacity="0.5"/>
 </g>
-<g class="twinkle" style="animation-delay:1.25s">
-<circle cx="620" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="620.0" cy="537.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 614.5 537 L 625.5 537" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 620 531.5 L 620 542.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.23s">
-<circle cx="640" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="640.0" cy="435.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.86s">
-<circle cx="640" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="640.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.14s">
-<circle cx="640" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="640.0" cy="469.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 634.5 469 L 645.5 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 640 463.5 L 640 474.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.87s">
-<circle cx="640" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="640.0" cy="486.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.16s">
-<circle cx="640" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="640.0" cy="503.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.80s">
-<circle cx="640" cy="520" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="640.0" cy="520.0" r="3.2" fill="#F4B942" opacity="0.9"/>
-<path d="M 633.0 520 L 647.0 520" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 640 513.0 L 640 527.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:1.89s">
-<circle cx="640" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="640.0" cy="537.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.23s">
-<circle cx="660" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="660.0" cy="435.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.79s">
-<circle cx="660" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="660.0" cy="452.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.83s">
-<circle cx="660" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="660.0" cy="469.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 654.5 469 L 665.5 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 660 463.5 L 660 474.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
+<rect x="635.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="635.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="655.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="655.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="655.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="655.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="655.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="655.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="655.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="655.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.54s">
-<circle cx="660" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="660.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.91s">
-<circle cx="660" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="660.0" cy="520.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 654.5 520 L 665.5 520" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 660 514.5 L 660 525.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.61s">
-<circle cx="660" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="660.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="675.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="655.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="655.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="655.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="655.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="655.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="655.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="675.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="675.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.10s">
-<circle cx="680" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="680.0" cy="452.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 674.5 452 L 685.5 452" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 680 446.5 L 680 457.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="675.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="675.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="675.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="675.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="675.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="675.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="675.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="675.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.16s">
-<circle cx="680" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="680.0" cy="503.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:1.88s">
-<circle cx="680" cy="520" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="680.0" cy="520.0" r="3.2" fill="#FFE59B" opacity="0.9"/>
-<path d="M 673.0 520 L 687.0 520" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 680 513.0 L 680 527.0" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.09s">
-<circle cx="680" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="680.0" cy="537.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="695.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="675.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="675.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="675.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="675.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="675.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="675.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="695.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="695.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.18s">
-<circle cx="700" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="700.0" cy="452.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 694.5 452 L 705.5 452" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 700 446.5 L 700 457.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.11s">
-<circle cx="700" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="700.0" cy="469.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:2.44s">
-<circle cx="700" cy="486" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="700.0" cy="486.0" r="3.2" fill="#F6C75B" opacity="0.9"/>
-<path d="M 693.0 486 L 707.0 486" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 700 479.0 L 700 493.0" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.56s">
-<circle cx="700" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="700.0" cy="503.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.31s">
-<circle cx="700" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="700.0" cy="520.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 694.5 520 L 705.5 520" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 700 514.5 L 700 525.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.46s">
-<circle cx="700" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="700.0" cy="537.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.27s">
-<circle cx="720" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="720.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.28s">
+<rect x="695.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="695.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="695.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="695.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="695.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="695.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="695.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="695.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="695.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="695.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="695.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="695.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="715.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="715.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:1.23s">
 <circle cx="720" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="720.0" cy="452.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
+<circle cx="720.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
 </g>
-<rect x="715.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="715.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="715.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<g class="twinkle" style="animation-delay:3.32s">
+<circle cx="720" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="720.0" cy="469.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
+</g>
+<rect x="715.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="715.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="715.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="715.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="715.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="715.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="715.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="715.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="715.0" y="532.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="715.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.14s">
-<circle cx="740" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="740.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="735.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="735.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="735.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="735.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="735.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.57s">
-<circle cx="740" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="740.0" cy="469.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.25s">
-<circle cx="740" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="740.0" cy="486.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="735.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="735.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="735.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="735.0" y="481.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="735.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="735.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="735.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.96s">
-<circle cx="740" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="740.0" cy="520.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.04s">
+<rect x="735.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="735.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:0.22s">
 <circle cx="740" cy="537" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="740.0" cy="537.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
-<path d="M 733.0 537 L 747.0 537" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 740 530.0 L 740 544.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="740.0" cy="537.0" r="3.2" fill="#FFE59B" opacity="0.9"/>
+<path d="M 733.0 537 L 747.0 537" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 740 530.0 L 740 544.0" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<g class="twinkle" style="animation-delay:0.25s">
-<circle cx="760" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="760.0" cy="435.0" r="3.2" fill="#F4B942" opacity="0.9"/>
-<path d="M 753.0 435 L 767.0 435" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 760 428.0 L 760 442.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:1.30s">
-<circle cx="760" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="760.0" cy="452.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
+<rect x="755.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="755.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="755.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="755.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="755.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="755.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.53s">
-<circle cx="760" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="760.0" cy="486.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.46s">
-<circle cx="760" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="760.0" cy="503.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.89s">
-<circle cx="760" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="760.0" cy="520.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.34s">
-<circle cx="760" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="760.0" cy="537.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.70s">
-<circle cx="780" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="780.0" cy="435.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.16s">
-<circle cx="780" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="780.0" cy="452.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.21s">
-<circle cx="780" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="780.0" cy="469.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.59s">
-<circle cx="780" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="780.0" cy="486.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.10s">
-<circle cx="780" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="780.0" cy="503.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="775.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="755.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="755.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="755.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="755.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="755.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="755.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="755.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="755.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="775.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="775.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="775.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="775.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="775.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="775.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="775.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="775.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="775.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="775.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="775.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="775.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
 <rect x="775.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="775.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="795.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="795.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="795.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="795.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="795.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="795.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="795.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="795.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="795.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.00s">
-<circle cx="800" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="800.0" cy="486.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="795.0" y="498.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="795.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="795.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="795.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="795.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="795.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="795.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="795.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.93s">
-<circle cx="800" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="800.0" cy="537.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:0.11s">
-<circle cx="820" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="820.0" cy="435.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
-<path d="M 813.0 435 L 827.0 435" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 820 428.0 L 820 442.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.73s">
+<rect x="795.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="795.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="815.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="815.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:0.70s">
 <circle cx="820" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="820.0" cy="452.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
+<circle cx="820.0" cy="452.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
 </g>
-<rect x="815.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="815.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.33s">
-<circle cx="820" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="820.0" cy="486.0" r="1.8" fill="#F4B942" opacity="0.5"/>
+<g class="twinkle" style="animation-delay:0.80s">
+<circle cx="820" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="820.0" cy="469.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
 </g>
-<rect x="815.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="815.0" y="481.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="815.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="815.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="815.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.26s">
-<circle cx="820" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="820.0" cy="520.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 814.5 520 L 825.5 520" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 820 514.5 L 820 525.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.94s">
-<circle cx="820" cy="537" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="820.0" cy="537.0" r="4.2" fill="#F6C75B" opacity="1.0"/>
-<path d="M 810.8 537 L 829.2 537" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 820 527.8 L 820 546.2" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.63s">
-<circle cx="840" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="840.0" cy="435.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
-<path d="M 833.0 435 L 847.0 435" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 840 428.0 L 840 442.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.55s">
-<circle cx="840" cy="452" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="840.0" cy="452.0" r="3.2" fill="#FFE59B" opacity="0.9"/>
-<path d="M 833.0 452 L 847.0 452" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 840 445.0 L 840 459.0" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.71s">
-<circle cx="840" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="840.0" cy="469.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:3.02s">
-<circle cx="840" cy="486" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="840.0" cy="486.0" r="4.2" fill="#F4B942" opacity="1.0"/>
-<path d="M 830.8 486 L 849.2 486" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 840 476.8 L 840 495.2" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.38s">
-<circle cx="840" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="840.0" cy="503.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="835.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="815.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="815.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="815.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="815.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="835.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="835.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="835.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="835.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="835.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="835.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="835.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="835.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="835.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="835.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="835.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="835.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.49s">
-<circle cx="840" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="840.0" cy="537.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.66s">
-<circle cx="860" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="860.0" cy="435.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<rect x="855.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="835.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="835.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="855.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="855.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="855.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="855.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.30s">
-<circle cx="860" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="860.0" cy="469.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.09s">
-<circle cx="860" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="860.0" cy="486.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.98s">
-<circle cx="860" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="860.0" cy="503.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.45s">
-<circle cx="860" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="860.0" cy="520.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 854.5 520 L 865.5 520" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 860 514.5 L 860 525.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.10s">
-<circle cx="860" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="860.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="875.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="855.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="855.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="855.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="855.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="855.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="855.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="855.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="855.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="855.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="855.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="875.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="875.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="875.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="875.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.03s">
-<circle cx="880" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="880.0" cy="469.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 874.5 469 L 885.5 469" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 880 463.5 L 880 474.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<g class="twinkle" style="animation-delay:3.54s">
+<circle cx="880" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="880.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
 </g>
-<g class="twinkle" style="animation-delay:1.07s">
-<circle cx="880" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="880.0" cy="486.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:1.91s">
-<circle cx="880" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="880.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.27s">
-<circle cx="880" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="880.0" cy="520.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.97s">
-<circle cx="880" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="880.0" cy="537.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<rect x="895.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="875.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="875.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="875.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="875.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="875.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="875.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="875.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="875.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="875.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="875.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="895.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="895.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="895.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="895.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="895.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="895.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="895.0" y="464.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="895.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.56s">
+<g class="twinkle" style="animation-delay:2.34s">
 <circle cx="900" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="900.0" cy="486.0" r="1.8" fill="#F4B942" opacity="0.5"/>
+<circle cx="900.0" cy="486.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
 </g>
-<g class="twinkle" style="animation-delay:2.78s">
+<g class="twinkle" style="animation-delay:1.02s">
 <circle cx="900" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="900.0" cy="503.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
+<circle cx="900.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
 </g>
-<rect x="895.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="895.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="895.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.69s">
-<circle cx="900" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="900.0" cy="537.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 894.5 537 L 905.5 537" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 900 531.5 L 900 542.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<rect x="895.0" y="532.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="895.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:3.89s">
+<circle cx="920" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="920.0" cy="435.0" r="2.5" fill="#F4B942" opacity="0.7"/>
 </g>
-<g class="twinkle" style="animation-delay:4.00s">
-<circle cx="920" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="920.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="915.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="915.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="915.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.95s">
-<circle cx="920" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="920.0" cy="469.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<rect x="915.0" y="481.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="915.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="915.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="915.0" y="481.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="915.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.82s">
-<circle cx="920" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="920.0" cy="503.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:2.05s">
-<circle cx="920" cy="520" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="920.0" cy="520.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 914.5 520 L 925.5 520" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 920 514.5 L 920 525.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="915.0" y="532.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="915.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="915.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="915.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="915.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="915.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="915.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="935.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="935.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="935.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.49s">
-<circle cx="940" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="940.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.35s">
-<circle cx="940" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="940.0" cy="469.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="935.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="935.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="935.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="935.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="935.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="935.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="935.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="935.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="935.0" y="498.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="935.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.80s">
-<circle cx="940" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="940.0" cy="520.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.07s">
-<circle cx="940" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="940.0" cy="537.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 934.5 537 L 945.5 537" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 940 531.5 L 940 542.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="955.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="935.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="935.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="935.0" y="532.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="935.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="955.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="955.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.58s">
-<circle cx="960" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="960.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.64s">
-<circle cx="960" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="960.0" cy="469.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 954.5 469 L 965.5 469" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 960 463.5 L 960 474.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="955.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="955.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="955.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="955.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="955.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="955.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="955.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="955.0" y="498.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="955.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="955.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.76s">
-<circle cx="960" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="960.0" cy="520.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
+<rect x="955.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="955.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="955.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="955.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="975.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="975.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="975.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="975.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="975.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="975.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="975.0" y="481.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="975.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="975.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="975.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="975.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="975.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="975.0" y="532.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="975.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="995.0" y="430.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="995.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="995.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="995.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="995.0" y="464.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="995.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="995.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="995.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="995.0" y="498.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="995.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="995.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="995.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="995.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="995.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1015.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1015.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1015.0" y="447.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1015.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1015.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1015.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1015.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1015.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1015.0" y="498.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1015.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1015.0" y="515.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1015.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1015.0" y="532.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1015.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1035.0" y="430.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1035.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1035.0" y="447.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1035.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1035.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1035.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1035.0" y="481.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1035.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1035.0" y="498.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1035.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1035.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1035.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1035.0" y="532.0" width="10" height="10" rx="2" fill="#16355C" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1035.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1055.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1055.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:3.69s">
+<circle cx="1060" cy="452" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1060.0" cy="452.0" r="4.2" fill="#F4B942" opacity="1.0"/>
+<path d="M 1050.8 452 L 1069.2 452" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 1060 442.8 L 1060 461.2" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
 <g class="twinkle" style="animation-delay:3.64s">
-<circle cx="960" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="960.0" cy="537.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
+<circle cx="1060" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1060.0" cy="469.0" r="3.2" fill="#FFE59B" opacity="0.9"/>
+<path d="M 1053.0 469 L 1067.0 469" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 1060 462.0 L 1060 476.0" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<rect x="975.0" y="430.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="975.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.96s">
-<circle cx="980" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="452.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.40s">
-<circle cx="980" cy="469" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="469.0" r="4.2" fill="#FFE59B" opacity="1.0"/>
-<path d="M 970.8 469 L 989.2 469" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 980 459.8 L 980 478.2" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="975.0" y="481.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="975.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.27s">
-<circle cx="980" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="503.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:2.18s">
-<circle cx="980" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="520.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.60s">
-<circle cx="980" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="537.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.61s">
-<circle cx="1000" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1000.0" cy="435.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.53s">
-<circle cx="1000" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1000.0" cy="452.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="995.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="995.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.86s">
-<circle cx="1000" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1000.0" cy="486.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 994.5 486 L 1005.5 486" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 1000 480.5 L 1000 491.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="995.0" y="498.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
-<rect x="995.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="995.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
-<rect x="995.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.66s">
-<circle cx="1000" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1000.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.91s">
-<circle cx="1020" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="435.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:0.34s">
-<circle cx="1020" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="452.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 1014.5 452 L 1025.5 452" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 1020 446.5 L 1020 457.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:3.63s">
-<circle cx="1020" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="469.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.26s">
-<circle cx="1020" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="486.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.80s">
-<circle cx="1020" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="503.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="1015.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="1015.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:1.06s">
-<circle cx="1020" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="537.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.75s">
-<circle cx="1040" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1040.0" cy="435.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="1035.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
-<rect x="1035.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="1035.0" y="464.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
-<rect x="1035.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.24s">
-<circle cx="1040" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1040.0" cy="486.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.90s">
-<circle cx="1040" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1040.0" cy="503.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 1034.5 503 L 1045.5 503" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 1040 497.5 L 1040 508.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<rect x="1035.0" y="515.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
-<rect x="1035.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.84s">
-<circle cx="1040" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1040.0" cy="537.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:2.71s">
-<circle cx="1060" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1060.0" cy="435.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<rect x="1055.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
-<rect x="1055.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="1055.0" y="464.0" width="10" height="10" rx="2" fill="#16355C" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
-<rect x="1055.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:3.71s">
-<circle cx="1060" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1060.0" cy="486.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
+<g class="twinkle" style="animation-delay:3.49s">
+<circle cx="1060" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1060.0" cy="486.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
 </g>
 <rect x="1055.0" y="498.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="1055.9" y="498.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<rect x="1055.0" y="515.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1055.0" y="515.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
 <rect x="1055.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:0.62s">
-<circle cx="1060" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1060.0" cy="537.0" r="2.5" fill="#F4B942" opacity="0.7"/>
-<path d="M 1054.5 537 L 1065.5 537" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 1060 531.5 L 1060 542.5" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:0.88s">
-<circle cx="1080" cy="435" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1080.0" cy="435.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<rect x="1075.0" y="447.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1055.0" y="532.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1055.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1075.0" y="430.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1075.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1075.0" y="447.0" width="10" height="10" rx="2" fill="#122F52" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
 <rect x="1075.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
-<g class="twinkle" style="animation-delay:2.97s">
-<circle cx="1080" cy="469" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1080.0" cy="469.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
+<rect x="1075.0" y="464.0" width="10" height="10" rx="2" fill="#0E2341" stroke="#234E81" stroke-width="0.9" opacity="0.82"/>
+<rect x="1075.9" y="464.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1075.0" y="481.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1075.9" y="481.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:1.59s">
+<circle cx="1080" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1080.0" cy="503.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
 </g>
-<g class="twinkle" style="animation-delay:3.09s">
-<circle cx="1080" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1080.0" cy="486.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:0.23s">
-<circle cx="1080" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1080.0" cy="503.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.00s">
-<circle cx="1080" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1080.0" cy="520.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:2.41s">
-<circle cx="1080" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1080.0" cy="537.0" r="2.5" fill="#F4B942" opacity="0.7"/>
+<rect x="1075.0" y="515.0" width="10" height="10" rx="2" fill="#1A2F4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1075.9" y="515.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1075.0" y="532.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1075.9" y="532.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1095.0" y="430.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1095.9" y="430.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<rect x="1095.0" y="447.0" width="10" height="10" rx="2" fill="#102B4D" stroke="#2E5E90" stroke-width="0.9" opacity="0.82"/>
+<rect x="1095.9" y="447.9" width="8.2" height="8.2" rx="1.8" fill="url(#skyGradient)" opacity="0.08"/>
+<g class="twinkle" style="animation-delay:2.87s">
+<circle cx="1100" cy="469" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1100.0" cy="469.0" r="4.2" fill="#F6C75B" opacity="1.0"/>
+<path d="M 1090.8 469 L 1109.2 469" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 1100 459.8 L 1100 478.2" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
 <rect width="1200" height="560" filter="url(#canvasTexture)" opacity="0.5"/>
 <text x="46" y="46" fill="#FFE681" font-size="24" font-family="Georgia, serif" font-weight="bold" letter-spacing="1">PsyCube250 · Starry Night</text>
