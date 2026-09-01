@@ -159,6 +159,15 @@ def draw_star(cx, cy, level):
     result = []
 
     if level <= 0:
+        result.append(
+            circle(
+                cx,
+                cy,
+                2,
+                "#17304A",
+                0.8
+            )
+        )
         return result
 
     if level <= 2:
@@ -348,15 +357,15 @@ def generate_svg(contributions):
     #
     # 52 × 7
     #
-    start_x = 70
+    start_x = 60
     start_y = 325
 
     cell_x = 20
     cell_y = 15
 
-    for week in range(52):
+    for week in range(len(contributions)):
 
-        for day in range(7):
+        for day in range(len(contributions[week])):
 
             value = contributions[week][day]
 
