@@ -4,6 +4,8 @@ import requests
 import os
 from pathlib import Path
 
+import flow_paint  # 流场笔触渲染器（同目录下的 flow_paint.py）
+
 
 # ============================================================
 # Configuration
@@ -498,27 +500,21 @@ def draw_contribution_grid(contributions):
 
 def generate_svg(contributions):
     svg = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">'
+        f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
+        f'width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">'
     ]
     svg.append(ANIMATION_CSS)
     svg.append(draw_defs())
 
-    # 背景渐变天空
-    svg.append(f'<rect width="{WIDTH}" height="{HEIGHT}" fill="url(#skyGradient)"/>')
-    svg.append(f'<ellipse cx="380" cy="160" rx="420" ry="160" fill="url(#blueGlow)" opacity="0.7"/>')
-    svg.append(f'<ellipse cx="860" cy="190" rx="360" ry="180" fill="url(#blueGlow)" opacity="0.4"/>')
-
-    # 流动笔触 + 金色点缀
-    svg.extend(draw_flow_strokes())
-    svg.extend(draw_gold_impasto())
-
-    # 两个主漩涡（大 + 小），带缓慢自转动画
-    svg.append('<g class="spiral-slow" style="transform-origin:520px 190px;">')
-    svg.extend(draw_vortex(520, 190, turns=2.6, base_r=6, growth=0.30, scale=1.15))
-    svg.append('</g>')
-    svg.append('<g class="spiral-slow" style="transform-origin:230px 230px; animation-duration:300s; animation-direction:reverse;">')
-    svg.extend(draw_vortex(230, 230, turns=1.8, base_r=5, growth=0.34, scale=0.8))
-    svg.append('</g>')
+    # 天空底图：流场笔触渲染的漩涡（见 flow_paint.py），
+    # 比纯矢量贝塞尔曲线笔触密度高两个数量级，是真正"画出来"而不是"画几条线"
+    sky_img = flow_paint.render_painterly_sky(base_gradient=True)
+    sky_b64, sky_mime = flow_paint.to_base64(sky_img, fmt="JPEG", quality=87)
+    svg.append(
+        f'<image x="0" y="0" width="{WIDTH}" height="{HEIGHT}" '
+        f'xlink:href="data:{sky_mime};base64,{sky_b64}" '
+        f'href="data:{sky_mime};base64,{sky_b64}" preserveAspectRatio="none"/>'
+    )
 
     # 月亮
     svg.extend(draw_moon())
