@@ -3,27 +3,54 @@
 ------------------------------------------------------------------
 针对上一版反馈的四个问题逐一改进：
 
-  问题①「线条没流动起来」
-    → 原因：用的是最简单的一阶欧拉积分（每步只看当前点方向），
-      遇到漩涡边缘方向变化快的地方，折线会"抖"而不是"转"。
-      这里换成二阶 RK2（中点法）积分：先看当前方向走半步，
-      在半步处再采一次方向，用这个"预判"方向走完整步。
-      这样每一步都提前感知了接下来的转向趋势，画出来的线才会
-      真正顺着漩涡"卷"起来，而不是一段段直线硬拼。
+问题①「线条没流动起来」
+  → 原因：用的是最简单的一阶欧拉积分（每步只看当前点方向），
+    遇到漩涡边缘方向变化快的地方，折线会"抖"而不是"转"。
+    这里换成二阶 RK2（中点法）积分：先看当前方向走半步，
+    在半步处再采一次方向，用这个"预判"方向走完整步。
+    这样每一步都提前感知了接下来的转向趋势，画出来的线才会
+    真正顺着漩涡"卷"起来，而不是一段段直线硬拼。
 
-  问题②「没有 step 式的讲解注释」
-    → 每个关键阶段前都用 [STEP n] 标出来，并解释"为什么这么做"
-      而不只是"这行代码做了什么"，方便你按步骤改参数实验。
+问题②「没有 step 式的讲解注释」
+  → 每个关键阶段前都用 [STEP n] 标出来，并解释"为什么这么做"
+    而不只是"这行代码做了什么"，方便你按步骤改参数实验。
 
-  问题③「细节不够」
-    → 新增：三层分形噪声(而非两层) + 域扭曲(domain warp)让湍流
-      更碎更自然；星星层(带辉光)；漩涡中心的光晕层；画布颗粒
-      噪点层，让整体不再是"光滑矢量图"的观感。
+问题③「细节不够」
+  → 新增：三层分形噪声(而非两层) + 域扭曲(domain warp)让湍流
+    更碎更自然；星星层(带辉光)；漩涡中心的光晕层；画布颗粒
+    噪点层，让整体不再是"光滑矢量图"的观感。
 
-  问题④「配色不好看」
-    → 换成更接近《星月夜》的普鲁士蓝→青蓝→月光白→暖金 的渐变
-      色阶，颜色不再是几个离散色值随机选，而是在连续色带上
-      按"深度"取样再叠加小幅随机扰动，过渡更自然。
+问题④「配色不好看」
+  → 换成更接近《星月夜》的普鲁士蓝→青蓝→月光白→暖金 的渐变
+    色阶，颜色不再是几个离散色值随机选，而是在连续色带上
+    按"深度"取样再叠加小幅随机扰动，过渡更自然。
+
+--------------------------------------------------------------
+[本次修改] 修复两个视觉问题：
+
+修复①「金色星星看不见」
+  → 原因：星星是在 5 层笔触**之前**画的（垫在最底层），后续
+    4560 条笔触（第1~5层，覆盖几乎整个画布，不透明度还不低）
+    层层叠加下来，星星早就被颜料埋掉了，只剩下 generate.py
+    里另外叠加的一批蓝色 SVG 小圆点还看得见。
+    修复方式：把星星绘制挪到所有笔触层画完**之后**，让它盖在
+    颜料上面，同时额外加了几颗更大、光环更多层的"英雄星星"，
+    呼应梵高原画里那几颗特别抢眼的爆炸状金星。
+
+修复②「线条不贴合漩涡」
+  → 原因：build_flow_paths() 生成的动画 SVG 螺旋线，圆心是
+    完全独立随机生成的（rng.uniform(120, WIDTH-120)），跟真正
+    定义漩涡位置、决定背景笔触流向的 VORTICES 列表毫无关系。
+    背景图里漩涡实际画在 (520,190)/(230,230)/(900,140) 附近，
+    上层动画线却随机长在任意位置，两套系统各画各的。
+    修复方式：让每条动画螺旋线的圆心从 VORTICES 里取（加小幅
+    随机偏移），半径跟着对应漩涡的 radius 走，并且当漩涡的
+    strength 为负（顺时针 vs 逆时针）时让螺旋旋转方向也反过来，
+    让动画线条的形状/位置/旋向都跟背景里的真实漩涡对上。
+    同时把 flow_at() 里"越靠近漩涡核心、噪声占比反而越高"的
+    逻辑反过来，改成越靠近核心越贴合漩涡切向场，只在外围让
+    噪声占比升高，这样漩涡核心的形状会更干净、更像"完美螺旋"，
+    噪声则负责让外围看起来自然而不生硬。
 
 依赖：仅 numpy + Pillow，纯 CPU 计算，几秒内跑完。
 """
@@ -39,7 +66,6 @@ SUPERSAMPLE = 2
 SW, SH = WIDTH * SUPERSAMPLE, HEIGHT * SUPERSAMPLE
 
 rng = np.random.default_rng(250)
-
 
 # ============================================================
 # [STEP 1] 噪声场：三层分形噪声 + 域扭曲
@@ -84,6 +110,7 @@ noise_layers = [
     (ValueNoise2D(9, 5, seed=2), 0.55),
     (ValueNoise2D(19, 11, seed=3), 0.28),
 ]
+
 # 单独一套低频噪声，专门用来扭曲坐标（不参与颜色/流场取值本身）
 warp_noise_x = ValueNoise2D(3, 3, seed=11)
 warp_noise_y = ValueNoise2D(3, 3, seed=12)
@@ -149,8 +176,14 @@ def nearest_vortex_falloff(x, y):
 
 
 def flow_at(x, y):
-    """湍流强度不再是全局固定的 0.45，而是随"离漩涡核心的远近"动态变化：
-    核心附近湍流更强（对应星夜里漩涡中心最"炸"），外围更平缓。"""
+    """湍流强度不再是全局固定的 0.45，而是随"离漩涡核心的远近"动态变化。
+
+    [本次修改] 原版是 local_turb = 0.30 + 0.35 * falloff —— 离核心越近，
+    噪声占比反而越高，导致漩涡中心的形状被噪声打散、显得不够"完美螺旋"。
+    这里反过来：越靠近核心，越贴合漩涡切向场（形状更干净、更像教科书式
+    的螺旋）；只在离核心较远的外围让噪声占比升高，负责让边缘看起来自然
+    而不生硬，不再和背景漩涡"打架"。
+    """
     xn, yn = x / WIDTH, y / HEIGHT
     cvx, cvy = curl_at(xn, yn)
     vvx, vvy = vortex_field(x, y)
@@ -160,7 +193,9 @@ def flow_at(x, y):
     else:
         vvx, vvy = cvx, cvy
 
-    local_turb = 0.30 + 0.35 * nearest_vortex_falloff(x, y)
+    falloff = nearest_vortex_falloff(x, y)
+    # falloff 越接近 1（越靠近核心）→ local_turb 越小 → 越贴合漩涡场
+    local_turb = 0.55 - 0.35 * falloff
     fx = vvx * (1 - local_turb) + cvx * local_turb
     fy = vvy * (1 - local_turb) + cvy * local_turb
     norm = math.hypot(fx, fy) + 1e-6
@@ -170,11 +205,11 @@ def flow_at(x, y):
 # ============================================================
 # [STEP 3] 笔触积分：RK2 中点法（这是"让线条动起来"的核心改动）
 # ------------------------------------------------------------
-# 原版：x += flow_at(x,y) * step        （只看当前点方向）
+# 原版：x += flow_at(x,y) * step （只看当前点方向）
 # 新版：k1 = flow_at(x,y)
 #       mid = (x,y) + k1 * step/2
-#       k2 = flow_at(*mid)              （在半步处提前探路）
-#       x += k2 * step                  （用探路后的方向走完整步）
+#       k2 = flow_at(*mid) （在半步处提前探路）
+#       x += k2 * step （用探路后的方向走完整步）
 # k2 已经"看到"了半步之后方向场怎么变，所以整条折线在拐弯处
 # 会自然地弧线过渡，而不是像原版那样每步独立决定、容易出现
 # 转折生硬的"棱角感"。
@@ -207,13 +242,14 @@ def _hex(c):
 
 
 SKY_RAMP = [
-    (0.00, _hex("#060B1E")),   # 画面最深处：接近黑的靛蓝
-    (0.22, _hex("#0B2A55")),   # 普鲁士蓝
-    (0.45, _hex("#154B82")),   # 深钴蓝
-    (0.65, _hex("#1F74A6")),   # 湖蓝
-    (0.82, _hex("#4FA8C9")),   # 亮青
-    (0.94, _hex("#BFE6E0")),   # 月光白青
+    (0.00, _hex("#060B1E")),  # 画面最深处：接近黑的靛蓝
+    (0.22, _hex("#0B2A55")),  # 普鲁士蓝
+    (0.45, _hex("#154B82")),  # 深钴蓝
+    (0.65, _hex("#1F74A6")),  # 湖蓝
+    (0.82, _hex("#4FA8C9")),  # 亮青
+    (0.94, _hex("#BFE6E0")),  # 月光白青
 ]
+
 GOLD_RAMP = [
     (0.0, _hex("#B8860B")),
     (0.5, _hex("#F5C542")),
@@ -291,32 +327,52 @@ def build_flow_paths(count=26):
     These are lightweight vector paths that explicitly animate with CSS dash
     offset, which makes the sky feel alive even when the raster background is
     static.
+
+    [本次修改] 原版的圆心是完全独立随机生成的（跟 VORTICES 无关），导致
+    这些动画线条飘在背景漩涡之外，两者对不上。现在改成从 VORTICES 里取
+    对应的漩涡中心（加一点随机偏移，避免每条线都长在同一个点），半径也
+    按该漩涡的 radius 缩放，并且当漩涡的 strength 为负（逆时针）时让螺旋
+    的角度增长方向也反过来，让每条动画线的位置、大小、旋向都跟背景图里
+    真实的那团漩涡对齐。
     """
     paths = []
+    n_vortices = len(VORTICES)
     for i in range(count):
-        cx = rng.uniform(120, WIDTH - 120)
-        cy = rng.uniform(40, 310)
+        base_cx, base_cy, strength, radius = VORTICES[i % n_vortices]
+        # 在漩涡中心附近做小幅随机偏移，避免所有线条完全重合在一个点上
+        cx = base_cx + rng.uniform(-radius * 0.12, radius * 0.12)
+        cy = base_cy + rng.uniform(-radius * 0.10, radius * 0.10)
+
         turns = rng.uniform(1.8, 3.6)
-        start_r = rng.uniform(18, 46)
+        # 起始半径、增长速度都跟着该漩涡自身的尺寸走，而不是固定值
+        start_r = rng.uniform(radius * 0.08, radius * 0.20)
         growth = rng.uniform(0.09, 0.16)
         rotation = rng.uniform(0, 2 * math.pi)
+
+        # strength 为负代表逆时针漩涡，螺旋角度增长方向也跟着反转，
+        # 这样线条的旋向才会跟背景笔触的实际流向一致
+        spin = 1.0 if strength >= 0 else -1.0
+
         pts = []
         for j in range(160):
             t = j / 159 * turns * 2 * math.pi
             r = start_r * math.exp(growth * t)
-            x = cx + r * math.cos(t + rotation)
-            y = cy + r * math.sin(t + rotation) * 0.72
+            theta = spin * t + rotation
+            x = cx + r * math.cos(theta)
+            y = cy + r * math.sin(theta) * 0.72
             pts.append((x, y))
 
         d = f"M {pts[0][0]:.1f} {pts[0][1]:.1f} " + " ".join(
             f"L {x:.1f} {y:.1f}" for x, y in pts[1:]
         )
+
         depth_t = min(max(cy / 420, 0.0), 1.0)
         color = stroke_color(depth_t, gold=False, jitter=0.06)
         color_hex = "#%02x%02x%02x" % color
         width = rng.uniform(1.2, 2.8)
         opacity = rng.uniform(0.35, 0.78)
         delay = rng.uniform(0, 18)
+
         paths.append({
             "d": d,
             "stroke": color_hex,
@@ -331,10 +387,10 @@ def build_flow_paths(count=26):
 # [STEP 6] 细节层：星星辉光 + 漩涡光晕 + 画布颗粒
 # ------------------------------------------------------------
 # 这三层是原版完全没有的东西，专门解决"细节不够"的问题：
-#   - 星星：小亮点 + 多圈递减透明度的光晕，制造"发光"感
-#   - 漩涡光晕：每个漩涡中心一圈柔和径向渐变，暗示光源
-#   - 颗粒：极细微的随机噪点，模拟画布/颜料的物理质感，
-#     避免整张图看起来"太干净"（矢量感）
+# - 星星：小亮点 + 多圈递减透明度的光晕，制造"发光"感
+# - 漩涡光晕：每个漩涡中心一圈柔和径向渐变，暗示光源
+# - 颗粒：极细微的随机噪点，模拟画布/颜料的物理质感，
+#   避免整张图看起来"太干净"（矢量感）
 # ============================================================
 
 def draw_star(draw, x, y, r_core, color, glow_rings=4):
@@ -393,14 +449,6 @@ def render_painterly_sky(base_gradient=True):
     for i, (cx, cy, _, radius) in enumerate(VORTICES):
         draw_vortex_glow(draw, cx, cy, radius, glow_colors[i % len(glow_colors)])
 
-    # --- 星星（在笔触之前先撒一批，让部分被后续笔触半遮住，更自然） ---
-    for _ in range(55):
-        sx = rng.uniform(0, WIDTH)
-        sy = rng.uniform(0, 360)
-        r_core = rng.uniform(1.0, 2.6)
-        star_color = ramp_color(GOLD_RAMP, rng.uniform(0.4, 1.0))
-        draw_star(draw, sx, sy, r_core, star_color, glow_rings=3)
-
     # 第1层：宽、深色、长笔触，勾出大漩涡的骨架方向
     draw_stroke_layer(
         draw, n_strokes=600, y_range=(10, 410),
@@ -440,6 +488,25 @@ def render_painterly_sky(base_gradient=True):
         width_range=(0.6, 1.2), opacity_range=(0.5, 0.75),
         gold=True, bias_near_vortex=0.85,
     )
+
+    # --- 星星：改到所有笔触层画完之后，盖在颜料上面，才不会被埋掉 ---
+    # 普通星星：数量多、大小不一，撒在整个天空区域
+    for _ in range(55):
+        sx = rng.uniform(0, WIDTH)
+        sy = rng.uniform(0, 360)
+        r_core = rng.uniform(1.2, 3.0)
+        star_color = ramp_color(GOLD_RAMP, rng.uniform(0.4, 1.0))
+        draw_star(draw, sx, sy, r_core, star_color, glow_rings=4)
+
+    # 英雄星星：3 颗更大、光环更多层的主视觉金星，呼应梵高原画里那几颗
+    # 特别抢眼的爆炸状星星；位置放在靠近漩涡边缘处，视觉上更有呼应感
+    hero_stars = [
+        (170, 95, "#FFF3B0"),
+        (760, 55, "#FFE58A"),
+        (1060, 215, "#FFF6C4"),
+    ]
+    for sx, sy, hex_color in hero_stars:
+        draw_star(draw, sx, sy, r_core=5.5, color=_hex(hex_color), glow_rings=6)
 
     img = img.resize((WIDTH, HEIGHT), Image.LANCZOS)
     img = img.convert("RGB")
