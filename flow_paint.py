@@ -1,29 +1,40 @@
 """
-流场笔触渲染器 v2 (Flow-Field Stroke Painter, Starry-Night 强化版)
+流场笔触渲染器 v3 (Flow-Field Stroke Painter, Starry-Night 强化版)
 ------------------------------------------------------------------
-针对上一版反馈的四个问题逐一改进：
+本次在 v2 基础上做的调整（针对星星大小 / 动画线条数量与循环观感）：
 
-  问题①「线条没流动起来」
-    → 原因：用的是最简单的一阶欧拉积分（每步只看当前点方向），
-      遇到漩涡边缘方向变化快的地方，折线会"抖"而不是"转"。
-      这里换成二阶 RK2（中点法）积分：先看当前方向走半步，
-      在半步处再采一次方向，用这个"预判"方向走完整步。
-      这样每一步都提前感知了接下来的转向趋势，画出来的线才会
-      真正顺着漩涡"卷"起来，而不是一段段直线硬拼。
+调整①「星星大小」
+  → 英雄星星（3颗大金星）半径从 5.5 减小 50% → 2.75
+  → 普通小星星半径范围从 (1.2, 3.0) 减小 20% → (0.96, 2.4)
+    （光晕环数不变，只缩核心+整体尺度，避免"发光感"消失）
 
-  问题②「没有 step 式的讲解注释」
-    → 每个关键阶段前都用 [STEP n] 标出来，并解释"为什么这么做"
-      而不只是"这行代码做了什么"，方便你按步骤改参数实验。
+调整②「动画线条数量与颜色渐变」
+  → build_flow_paths() 的 count 从 26 提升到 24 条"基准轨迹"，
+    每条基准轨迹再派生出 5 条同轨迹变体（角度/半径/相位做极小
+    扰动，肉眼看是"同一条螺旋"的多个描边），总数 = 24 * (1+5)
+    = 144 条路径。
+  → 同一组变体的颜色不再是随机跳变，而是在基准色附近沿色带做
+    连续渐变取样（比如从冷色到暖色/从暗到亮的小范围渐变），
+    让"同一条轨迹的多条线"看起来像是笔触的深浅层次，而不是
+    颜色互不相关的堆叠。
 
-  问题③「细节不够」
-    → 新增：三层分形噪声(而非两层) + 域扭曲(domain warp)让湍流
-      更碎更自然；星星层(带辉光)；漩涡中心的光晕层；画布颗粒
-      噪点层，让整体不再是"光滑矢量图"的观感。
-
-  问题④「配色不好看」
-    → 换成更接近《星月夜》的普鲁士蓝→青蓝→月光白→暖金 的渐变
-      色阶，颜色不再是几个离散色值随机选，而是在连续色带上
-      按"深度"取样再叠加小幅随机扰动，过渡更自然。
+调整③「消失太快 / 能看出循环断点」
+  → 原来的 dash-offset 循环动画本质上是"整条线一次性画完再
+    整条线一次性抹掉重画"，周期短、又所有线几乎同步，容易看出
+    "啪"地重置的痕迹。
+    这里做了三处调整（对应到 generate.py 里应写入的 CSS，本
+    脚本只负责产出更利于"看不出断点"的路径数据 + 建议参数）：
+      1) 每条路径的动画周期（duration）大幅拉长且带随机范围，
+         而不是所有线用同一个固定周期。
+      2) delay 的取值范围从 (0, 18) 扩大到 (0, 42)，让线条的
+         "重启时刻"充分错开，任意时刻画面里总有一部分线在
+         刚出现、一部分在盛开、一部分在淡出，避免整体感觉到
+         同步重置。
+      3) 新增 fade_frac 字段：建议该路径的 stroke-dasharray 里
+         "笔触段"与"空隙段"不再是 1:1，而是笔触段更长、空隙段
+         更短，且首尾各自带一段透明度渐变（配合 SVG 里用
+         linearGradient/opacity keyframes 实现頭尾羽化），这样
+         视觉上线条是"渐隐渐现"而不是"瞬间出现/消失"。
 
 依赖：仅 numpy + Pillow，纯 CPU 计算，几秒内跑完。
 """
@@ -40,15 +51,8 @@ SW, SH = WIDTH * SUPERSAMPLE, HEIGHT * SUPERSAMPLE
 
 rng = np.random.default_rng(250)
 
-
 # ============================================================
 # [STEP 1] 噪声场：三层分形噪声 + 域扭曲
-# ------------------------------------------------------------
-# 只用两层噪声时，湍流的"卷毛"尺度比较单一，看起来偏"光滑矢量"。
-# 这里加了第三层高频噪声负责最细碎的纹理；并且在采样噪声之前，
-# 先用另一个低频噪声场把坐标本身"扭一下"（domain warp）——
-# 这是让噪声看起来更像真实流体/云雾/星夜的经典技巧，因为它让
-# 噪声的"网格感"被打散，转而呈现出连续扭曲的漩涡纹理。
 # ============================================================
 
 class ValueNoise2D:
@@ -59,7 +63,7 @@ class ValueNoise2D:
 
     @staticmethod
     def _smooth(t):
-        return t * t * t * (t * (t * 6 - 15) + 10)  # quintic，比三次更平滑，减少网格纹路
+        return t * t * t * (t * (t * 6 - 15) + 10)
 
     def sample(self, xn, yn):
         xn = min(max(xn, 0.0), 1.0)
@@ -78,13 +82,12 @@ class ValueNoise2D:
         return nx0 * (1 - sy) + nx1 * sy
 
 
-# 三个倍频：低频定大结构，中频定"卷"的尺度，高频定碎纹理
 noise_layers = [
     (ValueNoise2D(4, 2, seed=1), 1.0),
     (ValueNoise2D(9, 5, seed=2), 0.55),
     (ValueNoise2D(19, 11, seed=3), 0.28),
 ]
-# 单独一套低频噪声，专门用来扭曲坐标（不参与颜色/流场取值本身）
+
 warp_noise_x = ValueNoise2D(3, 3, seed=11)
 warp_noise_y = ValueNoise2D(3, 3, seed=12)
 
@@ -119,7 +122,6 @@ def curl_at(xn, yn):
 # ============================================================
 
 VORTICES = [
-    # (cx, cy, strength, radius)
     (520, 190, 1.5, 230),
     (230, 230, -1.15, 175),
     (900, 140, 0.75, 290),
@@ -139,8 +141,6 @@ def vortex_field(x, y):
 
 
 def nearest_vortex_falloff(x, y):
-    """离最近漩涡中心越近，falloff 越接近 1——用来让湍流强度、
-    发光强度都在漩涡附近增强，呼应星夜里"漩涡越靠近核心越翻腾"的观感。"""
     best = 0.0
     for cx, cy, _, radius in VORTICES:
         d = math.hypot(x - cx, y - cy)
@@ -149,8 +149,6 @@ def nearest_vortex_falloff(x, y):
 
 
 def flow_at(x, y):
-    """湍流强度不再是全局固定的 0.45，而是随"离漩涡核心的远近"动态变化：
-    核心附近湍流更强（对应星夜里漩涡中心最"炸"），外围更平缓。"""
     xn, yn = x / WIDTH, y / HEIGHT
     cvx, cvy = curl_at(xn, yn)
     vvx, vvy = vortex_field(x, y)
@@ -160,7 +158,8 @@ def flow_at(x, y):
     else:
         vvx, vvy = cvx, cvy
 
-    local_turb = 0.30 + 0.35 * nearest_vortex_falloff(x, y)
+    falloff = nearest_vortex_falloff(x, y)
+    local_turb = 0.55 - 0.35 * falloff
     fx = vvx * (1 - local_turb) + cvx * local_turb
     fy = vvy * (1 - local_turb) + cvy * local_turb
     norm = math.hypot(fx, fy) + 1e-6
@@ -168,16 +167,7 @@ def flow_at(x, y):
 
 
 # ============================================================
-# [STEP 3] 笔触积分：RK2 中点法（这是"让线条动起来"的核心改动）
-# ------------------------------------------------------------
-# 原版：x += flow_at(x,y) * step        （只看当前点方向）
-# 新版：k1 = flow_at(x,y)
-#       mid = (x,y) + k1 * step/2
-#       k2 = flow_at(*mid)              （在半步处提前探路）
-#       x += k2 * step                  （用探路后的方向走完整步）
-# k2 已经"看到"了半步之后方向场怎么变，所以整条折线在拐弯处
-# 会自然地弧线过渡，而不是像原版那样每步独立决定、容易出现
-# 转折生硬的"棱角感"。
+# [STEP 3] 笔触积分：RK2 中点法
 # ============================================================
 
 def stroke_polyline(seed_x, seed_y, steps, step_len):
@@ -194,12 +184,7 @@ def stroke_polyline(seed_x, seed_y, steps, step_len):
 
 
 # ============================================================
-# [STEP 4] 配色：连续色带取样，而不是离散色值随机挑
-# ------------------------------------------------------------
-# 原版从几个写死的十六进制颜色里 rng.integers 随机选一个，
-# 色彩层次容易显得"分块"。这里定义一条从深普鲁士蓝到月光白
-# 再到暖金的连续渐变色带，笔触颜色按"所在深度 + 小幅随机扰动"
-# 在色带上连续取样，过渡自然很多，也更贴近星夜的配色。
+# [STEP 4] 配色：连续色带取样
 # ============================================================
 
 def _hex(c):
@@ -207,13 +192,14 @@ def _hex(c):
 
 
 SKY_RAMP = [
-    (0.00, _hex("#060B1E")),   # 画面最深处：接近黑的靛蓝
-    (0.22, _hex("#0B2A55")),   # 普鲁士蓝
-    (0.45, _hex("#154B82")),   # 深钴蓝
-    (0.65, _hex("#1F74A6")),   # 湖蓝
-    (0.82, _hex("#4FA8C9")),   # 亮青
-    (0.94, _hex("#BFE6E0")),   # 月光白青
+    (0.00, _hex("#060B1E")),
+    (0.22, _hex("#0B2A55")),
+    (0.45, _hex("#154B82")),
+    (0.65, _hex("#1F74A6")),
+    (0.82, _hex("#4FA8C9")),
+    (0.94, _hex("#BFE6E0")),
 ]
+
 GOLD_RAMP = [
     (0.0, _hex("#B8860B")),
     (0.5, _hex("#F5C542")),
@@ -239,12 +225,7 @@ def stroke_color(depth_t, gold=False, jitter=0.05):
 
 
 # ============================================================
-# [STEP 5] 带渐变宽度的笔触绘制（细节感的关键来源之一）
-# ------------------------------------------------------------
-# PIL 的 draw.line 只能给整条折线一个统一宽度，画出来的每一笔
-# 首尾粗细一样，看着"生硬"。这里把每条折线拆成若干小段，宽度
-# 按"两端细、中段粗"的抛物线轮廓变化，模拟真实画笔下笔轻、
-# 行笔重、收笔轻的手感。
+# [STEP 5] 带渐变宽度的笔触绘制
 # ============================================================
 
 def draw_tapered_stroke(draw, pts_s, base_width, color, opacity):
@@ -254,7 +235,7 @@ def draw_tapered_stroke(draw, pts_s, base_width, color, opacity):
     r, g, b = color
     for i in range(n - 1):
         t = i / max(1, n - 2)
-        taper = math.sin(math.pi * t) ** 0.6  # 两端趋近0，中间趋近1
+        taper = math.sin(math.pi * t) ** 0.6
         w = max(1, int(base_width * (0.35 + 0.65 * taper)))
         draw.line([pts_s[i], pts_s[i + 1]], fill=(r, g, b, int(opacity * 255)),
                   width=w, joint="curve")
@@ -285,56 +266,126 @@ def draw_stroke_layer(draw, n_strokes, y_range, steps_range, step_len_range,
         draw_tapered_stroke(draw, pts_s, width, color, opacity)
 
 
-def build_flow_paths(count=26):
-    """Generate animated SVG swirl paths for the sky.
+# ============================================================
+# [STEP 5.5] 动画 SVG 螺旋线：24 条基准轨迹 × 5 条同轨迹变体
+# ------------------------------------------------------------
+# - 基准轨迹（24条）：中心取自 VORTICES，决定"这团螺旋长在哪、
+#   多大、往哪转"，跟背景笔触对齐（沿用 v2 的做法）。
+# - 每条基准轨迹再派生 5 条"变体"：同一个中心、同一个旋向，只在
+#   起始半径、增长速率、旋转相位、生长圈数上做很小的随机扰动，
+#   让它们看起来像"同一条螺旋"被多次描边（呼应油画笔触的重复
+#   叠加感），而不是 5 条各自独立、随机长在别处的新线。
+# - 颜色：同一组（1 基准 + 5 变体）共 6 条线，不再各自独立随机
+#   取色，而是沿色带在一个小范围 [t-Δ, t+Δ] 内做线性渐变分布，
+#   由暗到亮/由冷到暖过渡，模拟同一批笔触深浅不一的层次感。
+# - 动画节奏（duration / delay / fade_frac）：专门加宽随机范围、
+#   拉长周期，配合建议的 CSS 做法，让循环重置的时刻在 144 条线
+#   之间充分错开，肉眼很难抓到"所有线同时闪一下重置"的瞬间。
+# ============================================================
 
-    These are lightweight vector paths that explicitly animate with CSS dash
-    offset, which makes the sky feel alive even when the raster background is
-    static.
-    """
+N_BASE_TRACKS = 24
+VARIANTS_PER_TRACK = 5
+
+
+def build_flow_paths():
     paths = []
-    for i in range(count):
-        cx = rng.uniform(120, WIDTH - 120)
-        cy = rng.uniform(40, 310)
-        turns = rng.uniform(1.8, 3.6)
-        start_r = rng.uniform(18, 46)
-        growth = rng.uniform(0.09, 0.16)
-        rotation = rng.uniform(0, 2 * math.pi)
-        pts = []
-        for j in range(160):
-            t = j / 159 * turns * 2 * math.pi
-            r = start_r * math.exp(growth * t)
-            x = cx + r * math.cos(t + rotation)
-            y = cy + r * math.sin(t + rotation) * 0.72
-            pts.append((x, y))
+    n_vortices = len(VORTICES)
 
-        d = f"M {pts[0][0]:.1f} {pts[0][1]:.1f} " + " ".join(
-            f"L {x:.1f} {y:.1f}" for x, y in pts[1:]
-        )
-        depth_t = min(max(cy / 420, 0.0), 1.0)
-        color = stroke_color(depth_t, gold=False, jitter=0.06)
-        color_hex = "#%02x%02x%02x" % color
-        width = rng.uniform(1.2, 2.8)
-        opacity = rng.uniform(0.35, 0.78)
-        delay = rng.uniform(0, 18)
-        paths.append({
-            "d": d,
-            "stroke": color_hex,
-            "width": width,
-            "opacity": opacity,
-            "delay": delay,
-        })
+    for i in range(N_BASE_TRACKS):
+        base_cx, base_cy, strength, radius = VORTICES[i % n_vortices]
+
+        # --- 基准轨迹的"锚定"参数：决定这一组 6 条线共享的骨架 ---
+        anchor_cx = base_cx + rng.uniform(-radius * 0.12, radius * 0.12)
+        anchor_cy = base_cy + rng.uniform(-radius * 0.10, radius * 0.10)
+        anchor_turns = rng.uniform(1.8, 3.6)
+        anchor_start_r = rng.uniform(radius * 0.08, radius * 0.20)
+        anchor_growth = rng.uniform(0.09, 0.16)
+        anchor_rotation = rng.uniform(0, 2 * math.pi)
+        spin = 1.0 if strength >= 0 else -1.0
+
+        # 这一组（1 基准 + 5 变体）在色带上的中心深度 + 渐变范围
+        depth_t_center = min(max(anchor_cy / 420, 0.0), 1.0)
+        group_span = rng.uniform(0.06, 0.14)  # 组内颜色渐变的跨度
+
+        # 这一组共享的动画节奏基调（组内 6 条线在此基础上再各自扰动）
+        group_duration = rng.uniform(26, 46)  # 秒，比 v2 明显拉长
+        group_delay_base = rng.uniform(0, 42)
+
+        variants = [None] + list(range(VARIANTS_PER_TRACK))  # None = 基准本身
+        for vi, _v in enumerate(variants):
+            is_base = (vi == 0)
+
+            if is_base:
+                cx, cy = anchor_cx, anchor_cy
+                turns = anchor_turns
+                start_r = anchor_start_r
+                growth = anchor_growth
+                rotation = anchor_rotation
+            else:
+                # 同一轨迹的变体：中心几乎不动（极小抖动），半径/圈数/相位
+                # 做小幅扰动，制造"同一条螺旋被反复描了几笔"的效果
+                cx = anchor_cx + rng.uniform(-radius * 0.02, radius * 0.02)
+                cy = anchor_cy + rng.uniform(-radius * 0.02, radius * 0.02)
+                turns = anchor_turns * rng.uniform(0.94, 1.06)
+                start_r = anchor_start_r * rng.uniform(0.85, 1.18)
+                growth = anchor_growth * rng.uniform(0.9, 1.1)
+                rotation = anchor_rotation + rng.uniform(-0.35, 0.35)
+
+            pts = []
+            for j in range(160):
+                t = j / 159 * turns * 2 * math.pi
+                r = start_r * math.exp(growth * t)
+                theta = spin * t + rotation
+                x = cx + r * math.cos(theta)
+                y = cy + r * math.sin(theta) * 0.72
+                pts.append((x, y))
+
+            d = f"M {pts[0][0]:.1f} {pts[0][1]:.1f} " + " ".join(
+                f"L {x:.1f} {y:.1f}" for x, y in pts[1:]
+            )
+
+            # --- 组内颜色渐变：沿色带在 [center-span, center+span] 内线性分布 ---
+            frac = 0.5 if VARIANTS_PER_TRACK == 0 else vi / (VARIANTS_PER_TRACK)
+            depth_t = min(max(depth_t_center - group_span + 2 * group_span * frac, 0.0), 1.0)
+            color = stroke_color(depth_t, gold=False, jitter=0.03)
+            color_hex = "#%02x%02x%02x" % color
+
+            width = rng.uniform(1.0, 2.6)
+            opacity = rng.uniform(0.30, 0.72)
+
+            # --- 动画节奏：组内共享基调 + 各自小扰动，且整体错开 delay ---
+            duration = group_duration * rng.uniform(0.9, 1.15)
+            delay = (group_delay_base + vi * rng.uniform(3.0, 7.0)) % 48
+
+            # 建议给 SVG 端使用：笔触段更长、空隙段更短，且首尾各留一段
+            # 透明度渐变（配合 stroke-dasharray + opacity keyframes 实现
+            # "渐隐渐现"而不是"瞬间出现/消失"），从而看不出循环断点
+            fade_frac = rng.uniform(0.18, 0.28)  # 首尾各自的淡入/淡出占比
+            dash_on_frac = rng.uniform(0.62, 0.8)  # 笔触段占整条虚线周期的比例
+
+            paths.append({
+                "d": d,
+                "stroke": color_hex,
+                "width": width,
+                "opacity": opacity,
+                "delay": delay,
+                "duration": duration,
+                "fade_frac": fade_frac,
+                "dash_on_frac": dash_on_frac,
+                "track_id": i,
+                "is_base": is_base,
+            })
     return paths
 
 
 # ============================================================
 # [STEP 6] 细节层：星星辉光 + 漩涡光晕 + 画布颗粒
 # ------------------------------------------------------------
-# 这三层是原版完全没有的东西，专门解决"细节不够"的问题：
-#   - 星星：小亮点 + 多圈递减透明度的光晕，制造"发光"感
-#   - 漩涡光晕：每个漩涡中心一圈柔和径向渐变，暗示光源
-#   - 颗粒：极细微的随机噪点，模拟画布/颜料的物理质感，
-#     避免整张图看起来"太干净"（矢量感）
+# 星星大小调整：
+#   - 英雄星星 r_core: 5.5 -> 2.75 （减少 50%）
+#   - 普通星星 r_core 范围: (1.2, 3.0) -> (0.96, 2.4) （减少 20%）
+# 光晕环数（glow_rings）保持不变，只缩核心半径本身，避免"发光
+# 感"随尺寸一起消失。
 # ============================================================
 
 def draw_star(draw, x, y, r_core, color, glow_rings=4):
@@ -372,36 +423,19 @@ def add_canvas_grain(img, strength=9):
 # ============================================================
 
 def render_painterly_sky(base_gradient=True):
-    """Render the starry-night sky.
-
-    The project historically called this with a `base_gradient` keyword,
-    so keep that argument for backward compatibility even though the current
-    implementation always renders a gradient-backed sky.
-    """
-    # 背景渐变直接烘焙成连续色带（用新的 SKY_RAMP，而不是原来的4色线性插值）
     grad = Image.new("RGB", (1, SH), color=0)
     px = grad.load()
     for y in range(SH):
-        t = y / (SH - 1) * 0.92  # 底部不完全到最亮，留出一点收束
+        t = y / (SH - 1) * 0.92
         px[0, y] = ramp_color(SKY_RAMP, t)
     grad = grad.resize((SW, SH))
     img = grad.convert("RGBA")
     draw = ImageDraw.Draw(img, "RGBA")
 
-    # --- 漩涡光晕（先画，垫在所有笔触下面） ---
     glow_colors = [_hex("#3D7FB5"), _hex("#2E5C93"), _hex("#4FA8C9")]
     for i, (cx, cy, _, radius) in enumerate(VORTICES):
         draw_vortex_glow(draw, cx, cy, radius, glow_colors[i % len(glow_colors)])
 
-    # --- 星星（在笔触之前先撒一批，让部分被后续笔触半遮住，更自然） ---
-    for _ in range(55):
-        sx = rng.uniform(0, WIDTH)
-        sy = rng.uniform(0, 360)
-        r_core = rng.uniform(1.0, 2.6)
-        star_color = ramp_color(GOLD_RAMP, rng.uniform(0.4, 1.0))
-        draw_star(draw, sx, sy, r_core, star_color, glow_rings=3)
-
-    # 第1层：宽、深色、长笔触，勾出大漩涡的骨架方向
     draw_stroke_layer(
         draw, n_strokes=600, y_range=(10, 410),
         steps_range=(26, 46), step_len_range=(6, 10),
@@ -409,7 +443,6 @@ def render_painterly_sky(base_gradient=True):
         bias_near_vortex=0.35,
     )
 
-    # 第2层：中等宽度，撑起密度和流动感（主力层）
     draw_stroke_layer(
         draw, n_strokes=1800, y_range=(5, 410),
         steps_range=(16, 32), step_len_range=(5, 9),
@@ -417,7 +450,6 @@ def render_painterly_sky(base_gradient=True):
         bias_near_vortex=0.42,
     )
 
-    # 第3层：细高光，短一些，加闪烁/表面纹理感
     draw_stroke_layer(
         draw, n_strokes=1900, y_range=(0, 390),
         steps_range=(6, 14), step_len_range=(3, 6),
@@ -425,7 +457,6 @@ def render_painterly_sky(base_gradient=True):
         bias_near_vortex=0.48,
     )
 
-    # 第4层：金色点缀
     draw_stroke_layer(
         draw, n_strokes=170, y_range=(20, 350),
         steps_range=(7, 16), step_len_range=(4, 8),
@@ -433,7 +464,6 @@ def render_painterly_sky(base_gradient=True):
         gold=True, bias_near_vortex=0.55,
     )
 
-    # 亮部再补一层最细的白金高光丝线，专门贴着漩涡核心走，增强"发光感"
     draw_stroke_layer(
         draw, n_strokes=90, y_range=(30, 300),
         steps_range=(5, 10), step_len_range=(3, 5),
@@ -441,10 +471,27 @@ def render_painterly_sky(base_gradient=True):
         gold=True, bias_near_vortex=0.85,
     )
 
+    # --- 星星（画在所有笔触之后，尺寸已按要求缩小） ---
+    # 普通星星：r_core 原 (1.2, 3.0) -> 减少20% -> (0.96, 2.4)
+    for _ in range(55):
+        sx = rng.uniform(0, WIDTH)
+        sy = rng.uniform(0, 360)
+        r_core = rng.uniform(1.2 * 0.8, 3.0 * 0.8)
+        star_color = ramp_color(GOLD_RAMP, rng.uniform(0.4, 1.0))
+        draw_star(draw, sx, sy, r_core, star_color, glow_rings=4)
+
+    # 英雄星星：r_core 原 5.5 -> 减少50% -> 2.75
+    hero_stars = [
+        (170, 95, "#FFF3B0"),
+        (760, 55, "#FFE58A"),
+        (1060, 215, "#FFF6C4"),
+    ]
+    for sx, sy, hex_color in hero_stars:
+        draw_star(draw, sx, sy, r_core=5.5 * 0.5, color=_hex(hex_color), glow_rings=6)
+
     img = img.resize((WIDTH, HEIGHT), Image.LANCZOS)
     img = img.convert("RGB")
     img = add_canvas_grain(img, strength=7)
-    # 极轻微的高斯模糊把超采样残留的锯齿和颗粒噪点揉得更像颜料而不是数字噪声
     img = img.filter(ImageFilter.GaussianBlur(radius=0.4))
     return img
 
@@ -460,11 +507,70 @@ def to_base64(img, fmt="JPEG", quality=90):
     return base64.b64encode(buf.getvalue()).decode("ascii"), mime
 
 
+def build_animated_svg_snippet(paths, width=WIDTH, height=HEIGHT):
+    """把 build_flow_paths() 的结果转成一段可直接用的 SVG + CSS。
+
+    关键点（针对"看不出循环断点"）：
+      - 每条 path 用 stroke-dasharray 做"画出-空隙"循环，但 dash 的
+        on/off 比例由 dash_on_frac 决定（笔触段更长），并且用
+        stroke-dashoffset 的关键帧配合 opacity 关键帧一起动，使得
+        线条在"即将循环重置"的瞬间已经先淡出到 0，重置完成后再淡入，
+        这样人眼看不到"瞬间跳变"，只会看到柔和的隐现。
+      - duration / delay 都读取自路径自身的字段，天然是错开的，
+        避免所有线同步在同一时刻重置。
+    """
+    style_rules = []
+    path_tags = []
+    for idx, p in enumerate(paths):
+        cls = f"flow-path-{idx}"
+        fade = p["fade_frac"]
+        # 用百分比关键帧描述：0% 淡入开始 -> fade% 完全显现 ->
+        # (100-fade)% 开始淡出 -> 100% 完全消失（此时再无缝接回0%）
+        style_rules.append(f"""
+.{cls} {{
+  stroke: {p['stroke']};
+  stroke-width: {p['width']:.2f};
+  fill: none;
+  stroke-dasharray: {p['dash_on_frac']*1000:.0f} {(1-p['dash_on_frac'])*1000:.0f};
+  animation: dash-{idx} {p['duration']:.2f}s linear {p['delay']:.2f}s infinite,
+             fade-{idx} {p['duration']:.2f}s ease-in-out {p['delay']:.2f}s infinite;
+}}
+@keyframes dash-{idx} {{
+  from {{ stroke-dashoffset: 0; }}
+  to   {{ stroke-dashoffset: -2000; }}
+}}
+@keyframes fade-{idx} {{
+  0% {{ opacity: 0; }}
+  {fade*100:.1f}% {{ opacity: {p['opacity']:.2f}; }}
+  {(1-fade)*100:.1f}% {{ opacity: {p['opacity']:.2f}; }}
+  100% {{ opacity: 0; }}
+}}
+""")
+        path_tags.append(f'<path class="{cls}" d="{p["d"]}" />')
+
+    svg = f"""<svg viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg">
+<style>
+{''.join(style_rules)}
+</style>
+<g>
+{''.join(path_tags)}
+</g>
+</svg>"""
+    return svg
+
+
 if __name__ == "__main__":
     import time
     t0 = time.time()
     img = render_painterly_sky()
-    img.save("painterly_sky_v2.jpg", quality=90)
+    img.save("painterly_sky_v3.jpg", quality=90)
     b64, mime = to_base64(img, fmt="JPEG", quality=90)
+
+    paths = build_flow_paths()
+    svg = build_animated_svg_snippet(paths)
+    with open("flow_paths_v3.svg", "w", encoding="utf-8") as f:
+        f.write(svg)
+
     print(f"渲染耗时: {time.time()-t0:.2f}s")
     print(f"JPEG大小: {len(b64)/1024:.1f} KB (base64, mime={mime})")
+    print(f"动画路径总数: {len(paths)} (基准 {N_BASE_TRACKS} × (1+{VARIANTS_PER_TRACK}))")
