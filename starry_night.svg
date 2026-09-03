@@ -968,8 +968,8 @@
 <path d="M 1100 480.5 L 1100 491.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
 <g class="twinkle" style="animation-delay:2.15s">
-<circle cx="1100" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1100.0" cy="503.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
+<circle cx="1100" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1100.0" cy="503.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
 </g>
 <rect width="1200" height="560" filter="url(#canvasTexture)" opacity="0.5"/>
 <text x="46" y="46" fill="#FFE681" font-size="24" font-family="Georgia, serif" font-weight="bold" letter-spacing="1">PsyCube250 · Starry Night</text>
