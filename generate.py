@@ -560,7 +560,7 @@ def generate_svg(contributions):
         f'href="data:{sky_mime};base64,{sky_b64}" preserveAspectRatio="none"/>'
     )
 
-    for path_cfg in flow_paint.build_flow_paths(count=26):
+    for path_cfg in flow_paint.build_flow_paths():
         svg.append(
             f'<path class="flow-line" d="{path_cfg["d"]}" stroke="{path_cfg["stroke"]}" '
             f'stroke-width="{path_cfg["width"]:.2f}" opacity="{path_cfg["opacity"]:.2f}" '
