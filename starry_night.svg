@@ -970,7 +970,10 @@
 <g class="twinkle" style="animation-delay:2.15s">
 <circle cx="1100" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
 <circle cx="1100.0" cy="503.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
+<path d="M 1094.5 503 L 1105.5 503" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 1100 497.5 L 1100 508.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
+<circle cx="1100.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <rect width="1200" height="560" filter="url(#canvasTexture)" opacity="0.5"/>
 <text x="46" y="46" fill="#FFE681" font-size="24" font-family="Georgia, serif" font-weight="bold" letter-spacing="1">PsyCube250 · Starry Night</text>
 </svg>
