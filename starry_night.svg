@@ -995,6 +995,7 @@
 <path d="M 1100 493.8 L 1100 512.2" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
 <circle cx="1100.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="1100.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <rect width="1200" height="560" filter="url(#canvasTexture)" opacity="0.5"/>
 <text x="46" y="46" fill="#FFE681" font-size="24" font-family="Georgia, serif" font-weight="bold" letter-spacing="1">PsyCube250 · Starry Night</text>
 </svg>
