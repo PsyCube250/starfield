@@ -1005,6 +1005,7 @@
 <circle cx="1100" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
 <circle cx="1100.0" cy="503.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
 </g>
+<circle cx="1100.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <rect width="1200" height="560" filter="url(#canvasTexture)" opacity="0.5"/>
 <text x="46" y="46" fill="#FFE681" font-size="24" font-family="Georgia, serif" font-weight="bold" letter-spacing="1">PsyCube250 · Starry Night</text>
 </svg>
