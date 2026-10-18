@@ -509,14 +509,8 @@
 <circle cx="60.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="60.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="60.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:1.86s">
-<circle cx="60" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="60.0" cy="520.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:3.54s">
-<circle cx="60" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="60.0" cy="537.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
+<circle cx="60.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="60.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="80.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="80.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="80.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -537,25 +531,25 @@
 <circle cx="120.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="120.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="120.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="120.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="140.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:1.86s">
+<circle cx="120" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="120.0" cy="537.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
+<path d="M 114.5 537 L 125.5 537" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 120 531.5 L 120 542.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
+<g class="twinkle" style="animation-delay:3.54s">
+<circle cx="140" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="140.0" cy="435.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
+<path d="M 133.0 435 L 147.0 435" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 140 428.0 L 140 442.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
 <circle cx="140.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="140.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="140.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="140.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="140.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:0.57s">
-<circle cx="140" cy="537" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="140.0" cy="537.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-<path d="M 134.5 537 L 145.5 537" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 140 531.5 L 140 542.5" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.27s">
-<circle cx="160" cy="435" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="160.0" cy="435.0" r="3.2" fill="#F6C75B" opacity="0.9"/>
-<path d="M 153.0 435 L 167.0 435" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 160 428.0 L 160 442.0" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
+<circle cx="140.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="160.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="160.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="160.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="160.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -568,23 +562,23 @@
 <circle cx="180.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="180.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="180.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="180.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="200.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:0.57s">
+<circle cx="180" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="180.0" cy="537.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
+</g>
+<g class="twinkle" style="animation-delay:2.27s">
+<circle cx="200" cy="435" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="200.0" cy="435.0" r="4.2" fill="#F6C75B" opacity="1.0"/>
+<path d="M 190.8 435 L 209.2 435" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 200 425.8 L 200 444.2" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
 <circle cx="200.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="200.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="200.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="200.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="200.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:3.25s">
-<circle cx="200" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="200.0" cy="537.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.93s">
-<circle cx="220" cy="435" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="220.0" cy="435.0" r="4.2" fill="#F8D57B" opacity="1.0"/>
-<path d="M 210.8 435 L 229.2 435" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 220 425.8 L 220 444.2" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
+<circle cx="200.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="220.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="220.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="220.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="220.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -684,30 +678,30 @@
 <circle cx="480.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="500.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="500.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="500.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:3.25s">
+<circle cx="500" cy="469" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="500.0" cy="469.0" r="4.2" fill="#F8D57B" opacity="1.0"/>
+<path d="M 490.8 469 L 509.2 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 500 459.8 L 500 478.2" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
 <circle cx="500.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="500.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="500.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:0.93s">
+<circle cx="500" cy="503" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="500.0" cy="503.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
+<path d="M 493.0 503 L 507.0 503" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 500 496.0 L 500 510.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
+<g class="twinkle" style="animation-delay:2.87s">
+<circle cx="500" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="500.0" cy="520.0" r="1.8" fill="#F4B942" opacity="0.5"/>
+</g>
 <circle cx="500.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="520.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="520.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:2.87s">
-<circle cx="520" cy="469" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="469.0" r="4.2" fill="#F4B942" opacity="1.0"/>
-<path d="M 510.8 469 L 529.2 469" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 520 459.8 L 520 478.2" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
+<circle cx="520.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="520.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:2.44s">
-<circle cx="520" cy="503" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="503.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
-<path d="M 513.0 503 L 527.0 503" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 520 496.0 L 520 510.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:2.81s">
-<circle cx="520" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="520.0" cy="520.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
+<circle cx="520.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="520.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="520.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="540.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="540.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -724,37 +718,37 @@
 <circle cx="560.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="560.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="580.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="580.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:2.44s">
+<circle cx="580" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="580.0" cy="452.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
+</g>
 <circle cx="580.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="580.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="580.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="580.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="580.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="600.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:3.50s">
-<circle cx="600" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="600.0" cy="452.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
+<circle cx="600.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="600.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="600.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="600.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="600.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="600.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:2.81s">
+<circle cx="600" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="600.0" cy="520.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
+</g>
+<g class="twinkle" style="animation-delay:3.50s">
+<circle cx="600" cy="537" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="600.0" cy="537.0" r="3.2" fill="#F6C75B" opacity="0.9"/>
+<path d="M 593.0 537 L 607.0 537" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 600 530.0 L 600 544.0" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
 <circle cx="620.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="620.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="620.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="620.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="620.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:0.03s">
-<circle cx="620" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="620.0" cy="520.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.80s">
-<circle cx="620" cy="537" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="620.0" cy="537.0" r="3.2" fill="#F4B942" opacity="0.9"/>
-<path d="M 613.0 537 L 627.0 537" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 620 530.0 L 620 544.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
+<circle cx="620.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="620.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="640.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="640.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="640.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -770,21 +764,21 @@
 <circle cx="660.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="660.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="680.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="680.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="680.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:0.03s">
+<circle cx="680" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="680.0" cy="452.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
+</g>
+<g class="twinkle" style="animation-delay:1.80s">
+<circle cx="680" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="680.0" cy="469.0" r="1.8" fill="#F4B942" opacity="0.5"/>
+</g>
 <circle cx="680.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="680.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="680.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="680.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="700.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:0.59s">
-<circle cx="700" cy="452" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="700.0" cy="452.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
-<g class="twinkle" style="animation-delay:1.10s">
-<circle cx="700" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="700.0" cy="469.0" r="1.8" fill="#F4B942" opacity="0.5"/>
-</g>
+<circle cx="700.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="700.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="700.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="700.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="700.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -797,39 +791,39 @@
 <circle cx="720.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="720.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="740.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="740.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:0.59s">
+<circle cx="740" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="740.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
+</g>
 <circle cx="740.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="740.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="740.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="740.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="740.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="760.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:2.02s">
-<circle cx="760" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="760.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
+<circle cx="760.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="760.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="760.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="760.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:1.10s">
+<circle cx="760" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="760.0" cy="486.0" r="1.8" fill="#F4B942" opacity="0.5"/>
+</g>
+<g class="twinkle" style="animation-delay:2.02s">
+<circle cx="760" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="760.0" cy="503.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
+</g>
 <circle cx="760.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="760.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="780.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:0.05s">
+<circle cx="780" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="780.0" cy="435.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
+</g>
 <circle cx="780.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="780.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:0.05s">
-<circle cx="780" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="780.0" cy="486.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.64s">
-<circle cx="780" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="780.0" cy="503.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
+<circle cx="780.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="780.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="780.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="780.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:1.47s">
-<circle cx="800" cy="435" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="800.0" cy="435.0" r="2.5" fill="#FFE59B" opacity="0.7"/>
-</g>
+<circle cx="800.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="800.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="800.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="800.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -838,17 +832,17 @@
 <circle cx="800.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="820.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="820.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="820.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:1.64s">
+<circle cx="820" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="820.0" cy="469.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
+</g>
 <circle cx="820.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="820.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="820.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="820.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="840.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="840.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:2.01s">
-<circle cx="840" cy="469" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="840.0" cy="469.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
+<circle cx="840.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="840.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="840.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="840.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -875,112 +869,112 @@
 <circle cx="900.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="900.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="920.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="920.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="920.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="920.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:1.47s">
+<circle cx="920" cy="452" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="920.0" cy="452.0" r="4.2" fill="#FFE59B" opacity="1.0"/>
+<path d="M 910.8 452 L 929.2 452" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 920 442.8 L 920 461.2" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
+<g class="twinkle" style="animation-delay:2.01s">
+<circle cx="920" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="920.0" cy="469.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
+<path d="M 913.0 469 L 927.0 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 920 462.0 L 920 476.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
+<g class="twinkle" style="animation-delay:2.62s">
+<circle cx="920" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="920.0" cy="486.0" r="1.8" fill="#F4B942" opacity="0.5"/>
+</g>
 <circle cx="920.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="920.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="920.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="940.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:2.62s">
-<circle cx="940" cy="452" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="940.0" cy="452.0" r="4.2" fill="#F4B942" opacity="1.0"/>
-<path d="M 930.8 452 L 949.2 452" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 940 442.8 L 940 461.2" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
+<circle cx="940.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="940.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="940.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <g class="twinkle" style="animation-delay:3.42s">
-<circle cx="940" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="940.0" cy="469.0" r="3.2" fill="#F4B942" opacity="0.9"/>
-<path d="M 933.0 469 L 947.0 469" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 940 462.0 L 940 476.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="940" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="940.0" cy="503.0" r="2.5" fill="#F4B942" opacity="0.7"/>
 </g>
-<g class="twinkle" style="animation-delay:3.69s">
-<circle cx="940" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="940.0" cy="486.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
-<circle cx="940.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="940.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="940.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="960.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="960.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="960.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="960.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:3.36s">
-<circle cx="960" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="960.0" cy="503.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
+<g class="twinkle" style="animation-delay:3.69s">
+<circle cx="960" cy="469" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="960.0" cy="469.0" r="4.2" fill="#FFE59B" opacity="1.0"/>
+<path d="M 950.8 469 L 969.2 469" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 960 459.8 L 960 478.2" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<circle cx="960.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="960.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="980.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="980.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:3.36s">
+<circle cx="960" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="960.0" cy="486.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
+<path d="M 954.5 486 L 965.5 486" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 960 480.5 L 960 491.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+</g>
 <g class="twinkle" style="animation-delay:2.81s">
-<circle cx="980" cy="469" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="469.0" r="4.2" fill="#F8D57B" opacity="1.0"/>
-<path d="M 970.8 469 L 989.2 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 980 459.8 L 980 478.2" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="960" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="960.0" cy="503.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
+<path d="M 954.5 503 L 965.5 503" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 960 497.5 L 960 508.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
 <g class="twinkle" style="animation-delay:2.26s">
-<circle cx="980" cy="486" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="486.0" r="2.5" fill="#F6C75B" opacity="0.7"/>
-<path d="M 974.5 486 L 985.5 486" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 980 480.5 L 980 491.5" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="960" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="960.0" cy="520.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
 </g>
+<circle cx="960.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="980.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <g class="twinkle" style="animation-delay:2.15s">
-<circle cx="980" cy="503" r="8.0" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="503.0" r="2.5" fill="#F8D57B" opacity="0.7"/>
-<path d="M 974.5 503 L 985.5 503" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 980 497.5 L 980 508.5" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="980" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="980.0" cy="452.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
 </g>
 <g class="twinkle" style="animation-delay:0.26s">
-<circle cx="980" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="980.0" cy="520.0" r="1.8" fill="#F4B942" opacity="0.5"/>
+<circle cx="980" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="980.0" cy="469.0" r="3.2" fill="#F4B942" opacity="0.9"/>
+<path d="M 973.0 469 L 987.0 469" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 980 462.0 L 980 476.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
-<circle cx="980.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1000.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <g class="twinkle" style="animation-delay:1.79s">
-<circle cx="1000" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1000.0" cy="452.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
+<circle cx="980" cy="486" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="980.0" cy="486.0" r="3.2" fill="#FFE59B" opacity="0.9"/>
+<path d="M 973.0 486 L 987.0 486" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 980 479.0 L 980 493.0" stroke="#FFE59B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
 <g class="twinkle" style="animation-delay:0.14s">
-<circle cx="1000" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1000.0" cy="469.0" r="3.2" fill="#F4B942" opacity="0.9"/>
-<path d="M 993.0 469 L 1007.0 469" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 1000 462.0 L 1000 476.0" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="980" cy="503" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="980.0" cy="503.0" r="4.2" fill="#F4B942" opacity="1.0"/>
+<path d="M 970.8 503 L 989.2 503" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 980 493.8 L 980 512.2" stroke="#F4B942" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
+<circle cx="980.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="980.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="1000.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="1000.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <g class="twinkle" style="animation-delay:0.38s">
-<circle cx="1000" cy="486" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1000.0" cy="486.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
-<path d="M 993.0 486 L 1007.0 486" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 1000 479.0 L 1000 493.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="1000" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1000.0" cy="469.0" r="3.2" fill="#F8D57B" opacity="0.9"/>
+<path d="M 993.0 469 L 1007.0 469" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<path d="M 1000 462.0 L 1000 476.0" stroke="#F8D57B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
 </g>
 <g class="twinkle" style="animation-delay:2.59s">
-<circle cx="1000" cy="503" r="13.4" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1000.0" cy="503.0" r="4.2" fill="#F6C75B" opacity="1.0"/>
-<path d="M 990.8 503 L 1009.2 503" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 1000 493.8 L 1000 512.2" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
+<circle cx="1000" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1000.0" cy="486.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
 </g>
-<circle cx="1000.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:2.72s">
+<circle cx="1000" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1000.0" cy="503.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
+</g>
+<g class="twinkle" style="animation-delay:1.28s">
+<circle cx="1000" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1000.0" cy="520.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
+</g>
 <circle cx="1000.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1020.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1020.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:2.72s">
-<circle cx="1020" cy="469" r="10.2" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="469.0" r="3.2" fill="#F6C75B" opacity="0.9"/>
-<path d="M 1013.0 469 L 1027.0 469" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-<path d="M 1020 462.0 L 1020 476.0" stroke="#F6C75B" stroke-width="1.1" opacity="0.7" fill="none" stroke-linecap="round"/>
-</g>
-<g class="twinkle" style="animation-delay:1.28s">
-<circle cx="1020" cy="486" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="486.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:0.75s">
-<circle cx="1020" cy="503" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="503.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
-</g>
-<g class="twinkle" style="animation-delay:1.78s">
-<circle cx="1020" cy="520" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1020.0" cy="520.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
-</g>
+<circle cx="1020.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="1020.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="1020.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<circle cx="1020.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1020.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1040.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1040.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
@@ -990,29 +984,26 @@
 <circle cx="1040.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1040.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1060.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1060.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:0.75s">
+<circle cx="1060" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1060.0" cy="452.0" r="1.8" fill="#F8D57B" opacity="0.5"/>
+</g>
 <circle cx="1060.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1060.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1060.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1060.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1060.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1080.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<g class="twinkle" style="animation-delay:2.63s">
-<circle cx="1080" cy="452" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
-<circle cx="1080.0" cy="452.0" r="1.8" fill="#F6C75B" opacity="0.5"/>
-</g>
+<circle cx="1080.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1080.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1080.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1080.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <circle cx="1080.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1080.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
+<g class="twinkle" style="animation-delay:1.78s">
+<circle cx="1080" cy="537" r="5.8" fill="url(#starGlow)" opacity="0.35"/>
+<circle cx="1080.0" cy="537.0" r="1.8" fill="#FFE59B" opacity="0.5"/>
+</g>
 <circle cx="1100.0" cy="435.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1100.0" cy="452.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1100.0" cy="469.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1100.0" cy="486.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1100.0" cy="503.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1100.0" cy="520.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
-<circle cx="1100.0" cy="537.0" r="1.4" fill="#1B3A5C" opacity="0.6"/>
 <rect width="1200" height="560" filter="url(#canvasTexture)" opacity="0.5"/>
 <text x="46" y="46" fill="#FFE681" font-size="24" font-family="Georgia, serif" font-weight="bold" letter-spacing="1">PsyCube250 · Starry Night</text>
 </svg>
